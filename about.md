@@ -68,7 +68,7 @@ Career Details
     사내 솔루션 유지 보수 및 고객 지원
 
 
-Private Project
+Personal Project
 =================
 
 comming soon....
