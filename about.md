@@ -38,9 +38,9 @@ Career
 - SI 프로젝트 개발 및 유지보수
 
 
-**ION Comunications**(Internship) 2014.08 ~ 2015.02
+<!-- **ION Comunications**(Internship) 2014.08 ~ 2015.02
 
-- SI 프로젝트 개발
+- SI 프로젝트 개발 -->
 
 
 Career Details
