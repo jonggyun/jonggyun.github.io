@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About JongGyun Park
+title: About
 permalink: /about/
 ---
 
 박 종균 (JongGyun Park)
 ====================
- 게으른 개발자의 세상을 편리하게 만드려는 생각이 보다 나은 세상을 만든다고 믿고 있습니다. 현재 주로 Java와 Javascript를 이용한 웹개발을 하고 있습니다. 하지만 거기서 멈추지 않고 익숙하지 않은 새로운 기술을 습득하는데 노력하고 있습니다. 최근에는 React에 관심을 갖고 공부하고 있습니다.
+ 현재 **Java**와 **Javascript**를 이용한 웹개발을 하고 있습니다. 하지만 거기서 멈추지 않고 익숙하지 않은 새로운 기술을 습득하는데 노력하고 있습니다. 최근에는 **Node**, **React**등에 관심을 갖고 공부하고 있습니다.
 
-
+<!-- patience
+laziness -->
 
 Skill
 ==========
