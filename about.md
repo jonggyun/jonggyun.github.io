@@ -55,7 +55,7 @@ Career Detail
 
   Java와 JavaScript를 이용한 조직도 트리 커스텀 모듈 개발
 
-  기타 웹 개발 등등 진행
+  기타 웹페이지 개발
 
 - 그룹웨어
 
