@@ -39,3 +39,10 @@ http://api.saramin.co.kr/documents/job-search-api
 **영화진흥위원회**
 
 http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+
+
+## Layout 정하기
+
+**참고사이트** : https://dribbble.com/ , https://www.behance.net/ 
+
+화면참고 https://www.behance.net/gallery/64582039/Supercrowd-UIUX-for-Swedish-Marketing-Company?tracking_source=curated_galleries_list
