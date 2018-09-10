@@ -2,7 +2,7 @@
 layout: post
 title: 개인프로젝트 준비
 summary: 개인프로젝트 준비 사항
-featured-img: emile-perron-190221
+featured-img: sleek
 ---
 
 ## OPEN API 관련
