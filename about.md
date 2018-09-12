@@ -39,9 +39,9 @@ Career
 - SI 프로젝트 개발 및 유지보수
 
 
-<!-- **ION Comunications**(Internship) 2014.08 ~ 2015.02
+**ION Comunications**(Internship) 2014.08 ~ 2015.02
 
-- SI 프로젝트 개발 -->
+- SI 프로젝트 개발
 
 
 Career Detail
@@ -51,7 +51,7 @@ Career Detail
 
 - 공공기관 SI 프로젝트(2018.03.02 ~ 2018.06.29)
 
-  XML과 Java을 기반으로 한 타 시스템과 연동 모듈 개발 `참여인원: 3명`
+  XML과 Java을 기반으로 타 시스템과 연동 모듈 개발 `참여인원: 3명`
 
   Java와 JavaScript를 이용한 조직도 트리 커스텀 모듈 개발 `참여인원: 1명`
 
@@ -63,11 +63,11 @@ Career Detail
 
   Java와 JavaScript를 이용한 XML 기반의 타사 통합검색엔진 연동 모듈 개발 `참여인원: 1명`
 
-  Java를 바탕으로 MSSQL to MariaDB Migration 모듈 개발 `참여인원: 1명`
+  Java를 바탕으로 MSSQL to MariaDB 전자결재 Migration 모듈 개발(약 100만건의 데이터를 처리) `참여인원: 1명`
 
-  Java의 DirContext를 이용한 Windows의 계층형 데이터베이스인 ActiveDirectory의 연동 모듈 개발 `참여인원: 1명`
+  Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`
 
-  Java, JavaScript 그리고 Jui Framework를 이용한 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
+  Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
 
 **at Postopia**
 
@@ -85,4 +85,10 @@ Career Detail
 Project
 =================
 
-comming soon....
+  - [영화정보 제공 서비스](https://github.com/jonggyun/movie-infomation) 2018.09.10 ~ current
+
+    - 영화진흥위원회의 오픈 API를 이용한 순위, 영화정보 및 영화인에 대한 정보를 조회할 수 있는 서비스.
+
+    - Front-End : React
+
+    - Back-end : Node.js
