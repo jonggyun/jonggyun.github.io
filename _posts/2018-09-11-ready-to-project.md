@@ -46,3 +46,28 @@ http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
 **참고사이트** : https://dribbble.com/ , https://www.behance.net/ 
 
 화면참고 https://www.behance.net/gallery/64582039/Supercrowd-UIUX-for-Swedish-Marketing-Company?tracking_source=curated_galleries_list
+
+
+## 설치 라이브러리
+
+### back-end
+yarn add koa-router
+
+yarn add koa-bodyparser
+
+yarn add request
+
+### front-end
+
+yarn add node-sass sass-loader classnames
+
+yarn add react-router redux redux-actions react-redux redux-pender immutable
+
+yarn add react-router-dom
+
+yarn add open-color
+
+yarn add axis
+
+yarn add query-string
+
