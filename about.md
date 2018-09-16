@@ -85,7 +85,7 @@ Career Detail
 Project
 =================
 
-  - [영화정보 제공 서비스](https://github.com/jonggyun/movie-infomation) 2018.09.10 ~ current
+  - [영화정보 제공 서비스](https://github.com/jonggyun/movie-infomation) 2018.09.10 ~ stop(react & node 기본기 쌓고 다시 진행)
 
     - 영화진흥위원회의 오픈 API를 이용한 순위, 영화정보 및 영화인에 대한 정보를 조회할 수 있는 서비스.
 
