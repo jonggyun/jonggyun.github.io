@@ -6,7 +6,7 @@ permalink: /about/
 
 박 종균 (JongGyun Park)
 ====================
- 현재 **Java**와 **Javascript**를 이용한 웹개발을 하고 있습니다. 하지만 거기서 멈추지 않고 익숙하지 않은 새로운 기술을 습득하는데 노력하고 있습니다. 최근에는 **Node**, **React**등에 관심을 갖고 공부하고 있습니다.
+ 현재 **Java**, **Javascript** 와 **jQuery**를 이용한 웹개발을 하고 있습니다. 하지만 거기서 멈추지 않고 익숙하지 않은 새로운 기술을 습득하는데 노력하고 있습니다. 최근에는 JavaScript의 **ES6**, **Node**, **React**등에 관심을 갖고 공부하고 있습니다.
 
 <!-- patience
 laziness -->
@@ -15,7 +15,7 @@ Skill
 ==========
 **Front-End :** JavaScript, jQuery
 
-**Back-End :** Java(SpringFramework)
+**Back-End :** Java(with SpringFramework)
 
 **DataBase :** MariaDB, MySQL, Oracle, PostgreSQL
 
@@ -84,6 +84,16 @@ Career Detail
 
 Project
 =================
+  - [메모장](https://github.com/jonggyun/memo-app)
+ 2019.09.19 ~ current
+
+    - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션
+
+    - 목표: es6 익숙해지기, react의 component와 redux의 상태관리를 이해하기
+
+    - Front-end: React, redux, sass, classname
+
+    - Back-end: Node.js(Koa Framework)
 
   - [영화정보 제공 서비스](https://github.com/jonggyun/movie-infomation) 2018.09.10 ~ stop(react & node 기본기 쌓고 다시 진행)
 
@@ -92,3 +102,4 @@ Project
     - Front-End : React
 
     - Back-end : Node.js
+
