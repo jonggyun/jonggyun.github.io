@@ -69,7 +69,7 @@ Career Detail
 
   Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`
 
-  Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
+  REST Api를 기반으로 하고 Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
 
 **at Postopia**
 
