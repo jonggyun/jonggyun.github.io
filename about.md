@@ -19,7 +19,7 @@ Skill
 
 **Back-End :** Java(with egovFramework)
 
-**DataBase :** MariaDB, MySQL, Oracle, PostgreSQL
+**DataBase :** MariaDB, MySQL, Oracle
 
 **Etc :** myBaits, iBatis
 
@@ -96,7 +96,7 @@ Project
  
     - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션
 
-    - 목표: es6 익숙해지기, react의 component와 redux의 상태관리를 이해하기
+    - 목표: react의 component와 redux의 상태관리를 이해하기
 
     - Front-end: React, redux, sass, classname
 
