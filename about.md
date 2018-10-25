@@ -17,7 +17,7 @@ Skill
 ==========
 **Front-End :** JavaScript, jQuery
 
-**Back-End :** Java(with SpringFramework)
+**Back-End :** Java(with egovFramework)
 
 **DataBase :** MariaDB, MySQL, Oracle, PostgreSQL
 
@@ -29,7 +29,7 @@ Career
 
 **Kaoni** 2017.06 ~ Current
 
-- 그룹웨어 개발 및 유지보수
+- 그룹웨어 신규모듈 및 기능 개발 및 유지보수
 
 - 공공기관 SI 프로젝트 개발 및 유지보수
 
@@ -51,7 +51,13 @@ Career Detail
 
 **at Kaoni**
 
-- 공공기관 SI 프로젝트(2018.03.02 ~ 2018.06.29)
+- 그룹웨어 신규 포탈 프로젝트(2018.09 ~ current) `참여인원: 4명`
+
+  MariaDB, Java를 이용한 REST Api Back-end 개발
+
+  JavaScript를 이용한 Front-end 개발
+
+- 공공기관 SI 프로젝트(2018.03 ~ 2018.06)
 
   XML과 Java을 기반으로 타 시스템과 연동 모듈 개발 `참여인원: 3명`
 
@@ -87,8 +93,7 @@ Career Detail
 Project
 =================
   - [메모장](https://github.com/jonggyun/memo-app)
- 2019.09.19 ~ current
-
+ 
     - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션
 
     - 목표: es6 익숙해지기, react의 component와 redux의 상태관리를 이해하기
