@@ -5,7 +5,7 @@ summary: 마크업도 중요하다! 완벽하게 알고 가자
 featured-img: emile-perron-190221
 ---
 
-#HTML 개념 정리
+# HTML 개념 정리
 
 ## Markup
 
@@ -99,7 +99,7 @@ Scalable Vector Graphics
 
 autocomplete의 경우 default는 off
 
-> label태그
+### label태그
 
   폼 요소에 레이블을 붙임
 
@@ -115,15 +115,15 @@ autocomplete의 경우 default는 off
 
   2번째의 경우 id를 통해서 쉽게 연결 가능
 
-> checkbox, radio button의 input을 label안에 넣을 경우
+### checkbox, radio button의 input을 label안에 넣을 경우
 
   꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 action이 발생한다.
 
-> input type="submit"의 경우 서버로 데이터를 전송, input type="image" src=""는 이미지로 submit을 할수 있음
+### input type="submit"의 경우 서버로 데이터를 전송, input type="image" src=""는 이미지로 submit을 할수 있음
 
-> input type="reset"은 입력 내용을 모두 지울수 있음
+### input type="reset"은 입력 내용을 모두 지울수 있음
 
-> select
+### select
   
   ```
   <select size="5" multiple>
@@ -135,7 +135,7 @@ autocomplete의 경우 default는 off
 
   size는 화면에 표시될 드롭다운 메뉴 개수를 지정, multiple 속성은 다중 선택이 가능해짐
 
-> textarea
+### textarea
 
   ```
   <textarea cols="" rows="">
@@ -144,7 +144,7 @@ autocomplete의 경우 default는 off
 
   cols 가로 너비를 결정(px), rows 세로 줄 개수를 결정
 
-> button tag vs input type="button"
+### button tag vs input type="button"
 
   ```
   <button>버튼</button>
@@ -153,11 +153,11 @@ autocomplete의 경우 default는 off
 
   button 태그를 사용하면 버튼에 콘텐츠를 포함 가능(이미지 등등 ..) css 통한 디자인도 가능
 
-> button tag vs input type="image"
+### button tag vs input type="image"
 
   button tag가 서버에서 빨리 읽어 옴
 
-> progress 
+### progress 
 
   작업의 진행상태를 표시
   
@@ -168,7 +168,7 @@ autocomplete의 경우 default는 off
   </li>
   ```
   
-> meter
+### meter
 
   전체 크기 중 얼마나 차지하는가를 표시 progress와 비슷하지만 다름
 
