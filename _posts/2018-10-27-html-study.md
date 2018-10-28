@@ -23,6 +23,35 @@ XML(eXtensible Markup Language)
 
 doctype을 정의하지 않은 경우에는 quirks mode가 적용된다. **quirks mode**는 웹 표준이 고려되지 않은 유형이기 때문에 같은 소스 코드라도 웹 브라우저 현재 버전으로 해석되어 의도한 것과 다른 결과를 낳을 수도 있다.
 
+doctype에는 html의 버젼과 DTD(Data Type Description)을 포함하고 있음
+
+doctype은 태그가 아닌 단순한 문서 타입에 대한 표현
+
+html5의 경우에는 자체적으로 DTD를 포함하고 있기 때문에 별도로 명시하지 않아도 됨
+
+```
+<!-- html5 -->
+<!doctype html>
+
+<!-- html4 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- XTHML -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+```
+
+|HTML5|XHTML|
+|-----|------|
+|종료태그가 없어도 됨| 종료태그가 **반드시** 있어야함|
+|대소문자 구분안함|대소문자 **구분**|
+|요소들 대소문자 가능|요소들 **소문자**만 가능|
+|속성에 single quotations 가능|속성에 single quotations 불가|
+|속성에 단축 허용 | 속성에 단축 불가|
+
+즉, xhtml은 html보다 문법에 엄격. html5가 나오기 전까지 최신의 문서 규격
+
 ## head Tag
 
 ```
@@ -48,14 +77,14 @@ meta 태그에는 주로 인코딩이 들어간다.
 
 ## Text 관련 Tag
 
-| strong Tag |   b Tag   |         |
-|------------|-----------|---------|
-|중요한 내용을 강조 | 단순히 다른 텍스트와 구별 ||
+| strong Tag |   b Tag   |
+|------------|-----------|
+|중요한 내용을 강조 | 단순히 다른 텍스트와 구별 |
 
 
-|em Tag|i Tag||
-|------|-----|--|
-|중요한내용을 강조|단순히 다른 텍스트와 구별||
+|em Tag|i Tag|
+|------|-----|
+|중요한내용을 강조|단순히 다른 텍스트와 구별|
 
 
 ## a Tag
@@ -97,7 +126,7 @@ Scalable Vector Graphics
 <form method="" action="" autocomplete="">
 ```
 
-autocomplete의 경우 default는 off
+autocomplete의 경우 default는 on (자동완성 기능)
 
 ### label태그
 
@@ -117,7 +146,7 @@ autocomplete의 경우 default는 off
 
 ### checkbox, radio button의 input을 label안에 넣을 경우
 
-  꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 action이 발생한다.
+  꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 click action이 발생한다.
 
 ### input type="submit"의 경우 서버로 데이터를 전송, input type="image" src=""는 이미지로 submit을 할수 있음
 
