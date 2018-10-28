@@ -97,7 +97,7 @@ Scalable Vector Graphics
 <form method="" action="" autocomplete="">
 ```
 
-autocomplete의 경우 default는 off
+autocomplete의 경우 default는 on (자동완성 기능)
 
 ### label태그
 
@@ -117,7 +117,7 @@ autocomplete의 경우 default는 off
 
 ### checkbox, radio button의 input을 label안에 넣을 경우
 
-  꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 action이 발생한다.
+  꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 click action이 발생한다.
 
 ### input type="submit"의 경우 서버로 데이터를 전송, input type="image" src=""는 이미지로 submit을 할수 있음
 
