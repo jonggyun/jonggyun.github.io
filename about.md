@@ -12,9 +12,35 @@ permalink: /about/
 
 <!-- patience
 laziness -->
+Study
+=========
+
+### 현재 관심을 갖고 공부 중인 분야입니다.
+
+* Markup Language - HTML5
+
+* CSS3
+
+* CSS Preprocessor - Sass
+
+* Javascript - ECMAScript 2015
+
+* webpack
+
+* Typescript
+
+* React + redux
+
+* node.js - express
+
+* NoSQL - mongoDB(mongoose)
+
 
 Skill
 ==========
+
+### Skill은 현업에서 사용 중인 기술입니다.
+
 **Front-End :** JavaScript, jQuery
 
 **Back-End :** Java(with egovFramework)
@@ -55,7 +81,7 @@ Career Detail
 
   MariaDB, Java를 이용한 REST Api Back-end 개발
 
-  JavaScript를 이용한 Front-end 개발
+  VanillaJS를 이용한 Front-end 개발
 
 - 공공기관 SI 프로젝트(2018.03 ~ 2018.06)
 
@@ -90,7 +116,7 @@ Career Detail
   사내 솔루션 유지 보수 및 고객 지원
 
 
-Project
+Study & Project source
 =================
   - [메모장](https://github.com/jonggyun/memo-app)
  
@@ -98,8 +124,25 @@ Project
 
     - 목표: react의 component와 redux의 상태관리를 이해하기
 
-    - Front-end: React, redux, sass, classname
+    - Front-end: React, redux, Sass, classname
 
     - Back-end: Node.js(Koa Framework)
 
 
+ - [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)
+
+    - Naver의 영화 검색 api를 이용한 정말 간단한 영화 검색 웹 애플리케이션
+    
+    - 목표
+    
+        * VanillaJS, ES6, webpack 익숙해지기
+
+        * Typescript에 대한 설정 및 기본 개념 익히기
+
+        * webpack 익숙해지기
+
+        * eslint 익숙해지기
+    
+    - Front-end: VanillaJS, ES6, Sass
+
+    - Back-end: Node.js(express)
