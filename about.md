@@ -12,8 +12,7 @@ permalink: /about/
 
 <!-- patience
 laziness -->
-Study
-=========
+# Study
 
 ### 현재 관심을 갖고 공부 중인 분야입니다.
 
