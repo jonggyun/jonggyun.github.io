@@ -35,4 +35,4 @@ featured-img: emile-perron-190221
 
   - ERD 1차
 
-  -![image](./assets/img/attach/jongplab/erd1.png)
+  ![image](/assets/img/attach/jongplab/erd1.png)
