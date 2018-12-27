@@ -1,7 +1,7 @@
 ---
 layout: post
-title: HTML 기본 개념부터 다시
-summary: 마크업도 중요하다! 완벽하게 알고 가자
+title: 블로그 만들기 준비 중
+summary: 기획 및 개발 관련 기록하기
 featured-img: emile-perron-190221
 ---
 
