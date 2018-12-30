@@ -58,3 +58,27 @@ featured-img: emile-perron-190221
   관리자 페이지에서 대부분의 기능들이 진행된다. 사용자단은 대부분이 GET으로 출력하는 방식으로 진행될 듯 (댓글기능 빼고)
 
   내일 다시 한 번 api 명세서를 확인해보고 서버 셋팅을 시작할까 생각 중이다.
+
+## 2018-12-28 ~ 2018.12-30
+
+- 연말 약속으로 인해 작업이 늦어졌다.
+
+- 결국 mongoDB를 이용하기로 결정.
+
+- REST API 정의는 trello의 checklist 기능을 이용해서 만들었다. 총 25개의 기능이 나왔다.
+
+- back-end 작업을 진행하고 있다
+
+  - mongoose의 query에 익숙해져야한다. 생각보다 편리한 기능이 많았다.
+
+    - populate의 경우 편한건지.. 불편한건지.. 모르겠다. 다른 schema를 연결 시켜주는 것은 좋은데 populate 내부에 조건을 걸어서 검색하는건 없는 듯?
+
+  - 유저 비밀번호 경우 bcrpyt를 이용해서 암호화
+
+  - django에서 rest_framework의 status 기능이 괜찮았어서 node에서도 비슷한 라이브러리가 있나 찾아봤는데 있어서 사용 중이다.
+
+    - yarn add http-status
+
+    - 아쉬운점은 django의 status는 status.HTTP_200_OK의 형식인데 http-status는 status.OK의 형식이라 상태코드와 메시지를 동시에 볼 수 없다는 것?
+
+    - 나중에 할수 있으면 위의 형식의 오픈소스를 만들어 봐야겠다.
