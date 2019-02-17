@@ -8,7 +8,9 @@ permalink: /about/
 
 그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있는 **박 종균**입니다.
 
-현업에서 **Java**, **Javascript** 와 **jQuery**를 이용한 웹개발을 하고 있습니다. 익숙한 방식에 머무르지 않고 조금이라도 더 나은 방식을 찾기 위해 새로운 기술을 습득하는데 노력하고 있습니다.
+이전까지 **Java**, **JSP**를 이용한 웹개발을 하고, 현재는 **React**를 이용한 Front-End 개발을 하고 있습니다.
+
+익숙한 방식에 머무르지 않고 조금이라도 더 나은 방식을 찾기 위해 새로운 기술을 습득하는데 노력하고 있습니다.
 
 가장 관심있는 언어는 Javascript입니다. 현재 Javascript의 **node.js**, **React**등에 관심을 갖고 공부하고 있습니다.
 
@@ -39,7 +41,7 @@ laziness -->
 
 ### Skill은 현업에서 사용 중인 기술입니다.
 
-**Front-End :** JavaScript, jQuery
+**Front-End :** JavaScript, jQuery, React
 
 **Back-End :** Java(with egovFramework)
 
@@ -49,7 +51,11 @@ laziness -->
 
 # Career
 
-**Kaoni** 2017.06 ~ Current
+**Plutusds** 2019.02 ~ Current
+
+- React를 이용한 Front-End 개발 및 유지보수
+
+**Kaoni** 2017.06 ~ 2019.01
 
 - 그룹웨어 신규모듈 및 기능 개발 및 유지보수
 
@@ -61,9 +67,10 @@ laziness -->
 
 - SI 프로젝트 개발 및 유지보수
 
-**ION Comunications**(Internship) 2014.08 ~ 2015.02
+  <!-- 
+  **ION Comunications**(Internship) 2014.08 ~ 2015.02
 
-- SI 프로젝트 개발
+* SI 프로젝트 개발 -->
 
 # Career Detail
 
@@ -117,16 +124,17 @@ laziness -->
 
 - [jongp-Lab](https://github.com/jonggyun/jongp-lab)
 
-  - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/)
+    <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->
 
   - 개인적으로 사용할 블로그
 
-  - 목표: 실제 서비스 배포를 위한 SSR, 코드 스플리팅 익숙해지기
+  - 목표: React를 사용한 Web Application 만들기
 
   - Front-end: React, redux, Sass, cssModule
 
   - Back-end: Node.js(express), mongoDB, mongoose
 
+<!--
 * [메모장](https://github.com/jonggyun/memo-app)
 
   - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션
@@ -135,7 +143,7 @@ laziness -->
 
   - Front-end: React, redux, Sass, classname
 
-  - Back-end: Node.js(Koa Framework)
+  - Back-end: Node.js(Koa Framework) -->
 
 - [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)
 
