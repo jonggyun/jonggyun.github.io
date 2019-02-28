@@ -1,0 +1,3882 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b1852c54584f220c495647b83353d0db",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "885a0e46c9a2ca702078e370d7b90b2b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bce15a1a59541f8fcf6f9e15e2feb942",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6466248db985abb44bc7e182d0d9f34e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c8634ca902c1bb3be30be68a98a3e66d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3bc63144ff6b6dabb3e407a1cc35bc0e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ffa0325c-be48-5f18-b5f8-76b045f41344": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "id": "ffa0325c-be48-5f18-b5f8-76b045f41344",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content",
+        "name": "content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a728a94abacc8eb0a5f5b5c03675d8f0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0d4a6e2d-b482-5cba-bbc1-957cdec03818": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "id": "0d4a6e2d-b482-5cba-bbc1-957cdec03818",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/about",
+        "name": "about"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "00e93c55db90b255519de65968ddece2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6eb67a1a-cce4-5605-ac1b-535bb4b3158c": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "id": "6eb67a1a-cce4-5605-ac1b-535bb4b3158c",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d0518343cfa5057b8639815f1122618c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "27722e63-fbdc-56cf-9324-2112e388b602": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-remark",
+      "id": "27722e63-fbdc-56cf-9324-2112e388b602",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.6",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-images",
+            "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+            "name": "gatsby-remark-images",
+            "version": "2.0.6",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5cbdd5cf9970e7bc10edbd0d71754b07",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a359a36-fef3-5c49-a0f9-45c24a5fd434": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-images",
+      "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+      "name": "gatsby-remark-images",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "380f240150ce4b8963d39950cd00377b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a4e07da4e772011734a97dbf8a278550",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "624bdef58570772bd1ad66423e76c5de",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "031676f3b9b08d9ff625f83e7a6fb6f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8df87818900fd54d9e5b7f46e0899ee0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fd86fdb4ed7ca2fbabce3808fe08ace3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c424f4fdd73967025db24aa711ca3a6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "624c196c-30dd-59e4-bcdd-a6f980c0396f": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-google-analytics",
+      "id": "624c196c-30dd-59e4-bcdd-a6f980c0396f",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "06b3d0f6179078508ef5300fdf54e7ff",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a46b146cbd593ed7a1d525edb19e880c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "dee44986-459d-5a9c-bea6-1de7842285fd": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "dee44986-459d-5a9c-bea6-1de7842285fd",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Blog",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "content/assets/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0ef6c56ecd3baaf7f6b203522e423825",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "32151904d3529f61be967d8dd074f7df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a08627e2d055f8356543095b39e097e3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.7",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2f658104ae952ae3f0a2f94b0d325c0a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "83e3876448e60cc56073f0ea5648ca94",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "50d6050b-39a4-5378-9d2c-605517caabed": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-remark",
+      "id": "50d6050b-39a4-5378-9d2c-605517caabed",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.6",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {},
+              "showLineNumbers": false,
+              "noInlineHighlight": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2339e3a4295569d58a421436194c1faf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d13151dc-fd64-50b0-b768-6beaa40f02ac": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {},
+        "showLineNumbers": false,
+        "noInlineHighlight": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "edbffba39d3da4d341f48a3206781c7f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "b89463b52d7da0da0b698e99e4c6c64b",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "A starter for a blog powered by Gatsby and Markdown",
+        "version": "0.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.1.16"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.21"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.4"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.14"
+          },
+          {
+            "name": "github-markdown-css",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "normalize.css",
+            "version": "^8.0.1"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-github",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5f60d2db537e1cbee2c96fd66fd52a44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c279db64-9c1f-5d43-a912-60b75a4fd83e": {
+      "resolve": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3bbd05b46a110e54f116fdd3b6e52dd6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "jongp.me",
+        "author": "JongGyun Park",
+        "description": "A Front-End Developer.",
+        "siteUrl": "https://gatsby-starter-blog-demo.netlify.com/",
+        "social": {
+          "github": "jonggyun"
+        }
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-28T17:18:16.713Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2f95aef2651c3f5d706aed26ba783598",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b4037ebb-e411-5f07-8ada-523d92cbf17f": {
+      "id": "b4037ebb-e411-5f07-8ada-523d92cbf17f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "639c567c2921db94d8b780fc2181391d",
+        "type": "Directory",
+        "description": "Directory \"content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-02-25T14:20:22.711Z",
+      "accessTime": "2019-02-28T17:18:19.708Z",
+      "changeTime": "2019-02-28T17:11:39.351Z",
+      "birthTime": "2019-02-22T17:44:07.432Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895160912,
+      "blocks": 0,
+      "atimeMs": 1551374299707.8074,
+      "mtimeMs": 1551104422711.3816,
+      "ctimeMs": 1551373899350.7363,
+      "birthtimeMs": 1550857447431.813,
+      "atime": "2019-02-28T17:18:19.708Z",
+      "mtime": "2019-02-25T14:20:22.711Z",
+      "ctime": "2019-02-28T17:11:39.351Z",
+      "birthtime": "2019-02-22T17:44:07.432Z"
+    },
+    "d76b3e8a-2af4-5632-8a69-28d75651078f": {
+      "id": "d76b3e8a-2af4-5632-8a69-28d75651078f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4cc25dc9ca095425df5116a485cf11a7",
+        "type": "Directory",
+        "description": "Directory \"content/about\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "about",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/about",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-25T14:20:32.895Z",
+      "accessTime": "2019-02-28T17:18:19.783Z",
+      "changeTime": "2019-02-28T17:11:39.339Z",
+      "birthTime": "2019-02-25T14:20:22.711Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content",
+      "base": "about",
+      "ext": "",
+      "name": "about",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198311,
+      "blocks": 0,
+      "atimeMs": 1551374299783.2637,
+      "mtimeMs": 1551104432894.6726,
+      "ctimeMs": 1551373899339.0095,
+      "birthtimeMs": 1551104422711.361,
+      "atime": "2019-02-28T17:18:19.783Z",
+      "mtime": "2019-02-25T14:20:32.895Z",
+      "ctime": "2019-02-28T17:11:39.339Z",
+      "birthtime": "2019-02-25T14:20:22.711Z"
+    },
+    "20be4cb8-7ccd-5767-92aa-33660c713e94": {
+      "id": "20be4cb8-7ccd-5767-92aa-33660c713e94",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1b911162d4d24a3e1e61698cc766f326",
+        "type": "Directory",
+        "description": "Directory \"content/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-02-22T17:59:28.180Z",
+      "accessTime": "2019-02-28T17:18:19.797Z",
+      "changeTime": "2019-02-28T17:11:39.350Z",
+      "birthTime": "2019-02-22T17:44:07.432Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198319,
+      "blocks": 0,
+      "atimeMs": 1551374299797.3281,
+      "mtimeMs": 1550858368180.1807,
+      "ctimeMs": 1551373899350.39,
+      "birthtimeMs": 1550857447431.8704,
+      "atime": "2019-02-28T17:18:19.797Z",
+      "mtime": "2019-02-22T17:59:28.180Z",
+      "ctime": "2019-02-28T17:11:39.350Z",
+      "birthtime": "2019-02-22T17:44:07.432Z"
+    },
+    "343d794e-bf75-5c12-8d70-6dbae94c64b7": {
+      "id": "343d794e-bf75-5c12-8d70-6dbae94c64b7",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4b61c7bfb5b324dd89e964b88a8fc851",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "relativePath": "blog",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-02-28T16:39:04.737Z",
+      "accessTime": "2019-02-28T17:18:19.710Z",
+      "changeTime": "2019-02-28T17:11:39.346Z",
+      "birthTime": "2019-02-22T17:44:07.433Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198313,
+      "blocks": 0,
+      "atimeMs": 1551374299710.2283,
+      "mtimeMs": 1551371944736.598,
+      "ctimeMs": 1551373899345.669,
+      "birthtimeMs": 1550857447432.7817,
+      "atime": "2019-02-28T17:18:19.710Z",
+      "mtime": "2019-02-28T16:39:04.737Z",
+      "ctime": "2019-02-28T17:11:39.346Z",
+      "birthtime": "2019-02-22T17:44:07.433Z"
+    },
+    "cc04bbe8-7b6f-5f0a-9a88-cc87ba36cbc6": {
+      "id": "cc04bbe8-7b6f-5f0a-9a88-cc87ba36cbc6",
+      "children": [
+        "9124f339-1920-5e96-ba40-2d70657b7081"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e4ff2d78f2d287abad5fe71d811e796e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/about/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/about/index.md",
+      "relativePath": "about/index.md",
+      "extension": "md",
+      "size": 4564,
+      "prettySize": "4.56 kB",
+      "modifiedTime": "2019-02-25T15:33:13.652Z",
+      "accessTime": "2019-02-28T17:17:42.784Z",
+      "changeTime": "2019-02-28T17:11:39.339Z",
+      "birthTime": "2019-02-25T14:20:32.895Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/about",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198312,
+      "blocks": 16,
+      "atimeMs": 1551374262784.4954,
+      "mtimeMs": 1551108793652.3213,
+      "ctimeMs": 1551373899338.9194,
+      "birthtimeMs": 1551104432894.657,
+      "atime": "2019-02-28T17:17:42.784Z",
+      "mtime": "2019-02-25T15:33:13.652Z",
+      "ctime": "2019-02-28T17:11:39.339Z",
+      "birthtime": "2019-02-25T14:20:32.895Z"
+    },
+    "11646b6c-01f7-5068-b201-b74e76216b9e": {
+      "id": "11646b6c-01f7-5068-b201-b74e76216b9e",
+      "children": [
+        "fd1a6055-0fc4-5352-b945-308d0d945f3f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets/gatsby-icon.png",
+      "relativePath": "assets/gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-02-22T17:44:07.432Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.350Z",
+      "birthTime": "2019-02-22T17:44:07.432Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "assets",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198321,
+      "blocks": 48,
+      "atimeMs": 1551374262784.5764,
+      "mtimeMs": 1550857447432.193,
+      "ctimeMs": 1551373899349.8132,
+      "birthtimeMs": 1550857447431.943,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-22T17:44:07.432Z",
+      "ctime": "2019-02-28T17:11:39.350Z",
+      "birthtime": "2019-02-22T17:44:07.432Z"
+    },
+    "78728f4c-e9f2-5807-bf0f-20acdec4edd1": {
+      "id": "78728f4c-e9f2-5807-bf0f-20acdec4edd1",
+      "children": [
+        "c8e257f2-5ce2-5bb4-8a90-d6d57ccf4cb2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/assets/profile-pic.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets/profile-pic.jpg",
+      "relativePath": "assets/profile-pic.jpg",
+      "extension": "jpg",
+      "size": 21714,
+      "prettySize": "21.7 kB",
+      "modifiedTime": "2019-02-22T17:44:07.433Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.350Z",
+      "birthTime": "2019-02-22T17:44:07.432Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets",
+      "base": "profile-pic.jpg",
+      "ext": ".jpg",
+      "name": "profile-pic",
+      "relativeDirectory": "assets",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198322,
+      "blocks": 48,
+      "atimeMs": 1551374262784.607,
+      "mtimeMs": 1550857447432.6018,
+      "ctimeMs": 1551373899350.2893,
+      "birthtimeMs": 1550857447432.3892,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-22T17:44:07.433Z",
+      "ctime": "2019-02-28T17:11:39.350Z",
+      "birthtime": "2019-02-22T17:44:07.432Z"
+    },
+    "744f4c2c-4c94-59b9-af7a-dbdb5495cf7e": {
+      "id": "744f4c2c-4c94-59b9-af7a-dbdb5495cf7e",
+      "children": [
+        "399e2c5e-d52e-53c8-b5f4-46d2a7e44462"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "678dd53a405bbe72ce3cf4a661c6e050",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2018-10-27-css-study.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-10-27-css-study.md",
+      "relativePath": "blog/2018-10-27-css-study.md",
+      "extension": "md",
+      "size": 15015,
+      "prettySize": "15 kB",
+      "modifiedTime": "2019-02-28T16:45:43.036Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.340Z",
+      "birthTime": "2019-02-28T16:38:50.653Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "base": "2018-10-27-css-study.md",
+      "ext": ".md",
+      "name": "2018-10-27-css-study",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198314,
+      "blocks": 32,
+      "atimeMs": 1551374262784.696,
+      "mtimeMs": 1551372343036.2217,
+      "ctimeMs": 1551373899340.2527,
+      "birthtimeMs": 1551371930653.1238,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-28T16:45:43.036Z",
+      "ctime": "2019-02-28T17:11:39.340Z",
+      "birthtime": "2019-02-28T16:38:50.653Z"
+    },
+    "77869111-be4f-5582-8b9c-cca66f5b6ec8": {
+      "id": "77869111-be4f-5582-8b9c-cca66f5b6ec8",
+      "children": [
+        "67d3cf9e-0ae4-5255-bc2d-1dfd28077ea2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3ba412cff4eff4bab032abd66b1c32ef",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2018-10-27-html-study.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-10-27-html-study.md",
+      "relativePath": "blog/2018-10-27-html-study.md",
+      "extension": "md",
+      "size": 7797,
+      "prettySize": "7.8 kB",
+      "modifiedTime": "2019-02-28T16:46:22.685Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.345Z",
+      "birthTime": "2019-02-28T16:38:57.071Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "base": "2018-10-27-html-study.md",
+      "ext": ".md",
+      "name": "2018-10-27-html-study",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198317,
+      "blocks": 16,
+      "atimeMs": 1551374262784.8352,
+      "mtimeMs": 1551372382684.7405,
+      "ctimeMs": 1551373899344.5896,
+      "birthtimeMs": 1551371937070.6233,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-28T16:46:22.685Z",
+      "ctime": "2019-02-28T17:11:39.345Z",
+      "birthtime": "2019-02-28T16:38:57.071Z"
+    },
+    "7d61298a-b21d-5631-a772-05253f7fdced": {
+      "id": "7d61298a-b21d-5631-a772-05253f7fdced",
+      "children": [
+        "1dfb9843-2c76-5620-af78-9d8b4814619e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "16152e519b8aea72af385a6282d95bc1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2018-12-27-2018memoir.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-12-27-2018memoir.md",
+      "relativePath": "blog/2018-12-27-2018memoir.md",
+      "extension": "md",
+      "size": 6075,
+      "prettySize": "6.08 kB",
+      "modifiedTime": "2019-02-28T16:46:40.329Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.342Z",
+      "birthTime": "2019-02-28T16:39:04.737Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "base": "2018-12-27-2018memoir.md",
+      "ext": ".md",
+      "name": "2018-12-27-2018memoir",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198315,
+      "blocks": 16,
+      "atimeMs": 1551374262784.9246,
+      "mtimeMs": 1551372400329.2322,
+      "ctimeMs": 1551373899342.3403,
+      "birthtimeMs": 1551371944736.5815,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-28T16:46:40.329Z",
+      "ctime": "2019-02-28T17:11:39.342Z",
+      "birthtime": "2019-02-28T16:39:04.737Z"
+    },
+    "fd1a6055-0fc4-5352-b945-308d0d945f3f": {
+      "id": "fd1a6055-0fc4-5352-b945-308d0d945f3f",
+      "children": [],
+      "parent": "11646b6c-01f7-5068-b201-b74e76216b9e",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c8e257f2-5ce2-5bb4-8a90-d6d57ccf4cb2": {
+      "id": "c8e257f2-5ce2-5bb4-8a90-d6d57ccf4cb2",
+      "children": [],
+      "parent": "78728f4c-e9f2-5807-bf0f-20acdec4edd1",
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e0c28568-13ff-5cf7-8003-5a0d4468cdf0": {
+      "id": "e0c28568-13ff-5cf7-8003-5a0d4468cdf0",
+      "children": [
+        "0e090f27-39e2-5d45-ac31-86e1d0b3fff1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e4dbf2a66e7fe2fe4ecbeba47bd10b4e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2019-02-25-test_test.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2019-02-25-test_test.md",
+      "relativePath": "blog/2019-02-25-test_test.md",
+      "extension": "md",
+      "size": 1504,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2019-02-26T16:11:29.542Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.344Z",
+      "birthTime": "2019-02-26T16:04:58.738Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "base": "2019-02-25-test_test.md",
+      "ext": ".md",
+      "name": "2019-02-25-test_test",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198316,
+      "blocks": 8,
+      "atimeMs": 1551374262784.9832,
+      "mtimeMs": 1551197489542.3726,
+      "ctimeMs": 1551373899344.0376,
+      "birthtimeMs": 1551197098737.7217,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-26T16:11:29.542Z",
+      "ctime": "2019-02-28T17:11:39.344Z",
+      "birthtime": "2019-02-26T16:04:58.738Z"
+    },
+    "fe7ae50f-16f5-5f9e-afd3-801d92ee90ce": {
+      "id": "fe7ae50f-16f5-5f9e-afd3-801d92ee90ce",
+      "children": [
+        "5bea63d7-2863-580f-abab-926cdfc8efc5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8986496c7ae8a699c5459780b5e4c9c3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2019-02-26-post_test.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2019-02-26-post_test.md",
+      "relativePath": "blog/2019-02-26-post_test.md",
+      "extension": "md",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2019-02-26T14:10:04.334Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.346Z",
+      "birthTime": "2019-02-26T14:04:58.223Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog",
+      "base": "2019-02-26-post_test.md",
+      "ext": ".md",
+      "name": "2019-02-26-post_test",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198318,
+      "blocks": 8,
+      "atimeMs": 1551374262785.0261,
+      "mtimeMs": 1551190204333.891,
+      "ctimeMs": 1551373899345.554,
+      "birthtimeMs": 1551189898222.9302,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-26T14:10:04.334Z",
+      "ctime": "2019-02-28T17:11:39.346Z",
+      "birthtime": "2019-02-26T14:04:58.223Z"
+    },
+    "9124f339-1920-5e96-ba40-2d70657b7081": {
+      "id": "9124f339-1920-5e96-ba40-2d70657b7081",
+      "children": [],
+      "parent": "cc04bbe8-7b6f-5f0a-9a88-cc87ba36cbc6",
+      "internal": {
+        "content": "\n# 박 종균 (JongGyun Park)\n\n그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있는 **박 종균**입니다.\n\n이전까지 **Java**, **JSP**를 이용한 웹개발을 하고, 현재는 **React**를 이용한 Front-End 개발을 하고 있습니다.\n\n익숙한 방식에 머무르지 않고 조금이라도 더 나은 방식을 찾기 위해 새로운 기술을 습득하는데 노력하고 있습니다.\n\n가장 관심있는 언어는 Javascript입니다. 현재 Javascript의 **node.js**, **React**등에 관심을 갖고 공부하고 있습니다.\n\n<!-- patience\nlaziness -->\n\n# Study\n\n### 현재 관심을 갖고 공부 중인 분야입니다.\n\n- Markup Language - HTML5\n\n- CSS3\n\n- CSS Preprocessor - Sass\n\n- Javascript - ECMAScript 2015\n\n- webpack\n\n* React + redux\n\n* node.js - express\n\n* NoSQL - mongoDB(mongoose)\n\n# Skill\n\n### Skill은 현업에서 사용 중인 기술입니다.\n\n**Front-End :** JavaScript, jQuery, React\n\n**Back-End :** Java(with egovFramework)\n\n**DataBase :** MariaDB, MySQL, Oracle\n\n**Etc :** myBaits, iBatis\n\n# Career\n\n**Plutusds** 2019.02 ~ Current\n\n- React를 이용한 Front-End 개발 및 유지보수\n\n**Kaoni** 2017.06 ~ 2019.01\n\n- 그룹웨어 신규모듈 및 기능 개발 및 유지보수\n\n- 공공기관 SI 프로젝트 개발 및 유지보수\n\n**Postopia** 2016.01 ~ 2017.05\n\n- 사내 솔루션 추가 개발 및 유지보수\n\n- SI 프로젝트 개발 및 유지보수\n\n  <!-- \n  **ION Comunications**(Internship) 2014.08 ~ 2015.02\n\n* SI 프로젝트 개발 -->\n\n# Career Detail\n\n**at Kaoni**\n\n- 그룹웨어 신규 포탈 프로젝트(2018.09 ~ 2018.11) `참여인원: 4명`\n\n  MariaDB, Java를 이용한 REST Api Back-end 개발\n\n  VanillaJS를 이용한 Front-end 개발\n\n- 공공기관 SI 프로젝트(2018.03 ~ 2018.06)\n\n  XML과 Java을 기반으로 타 시스템과 연동 모듈 개발 `참여인원: 3명`\n\n  Java와 JavaScript를 이용한 조직도 트리 커스텀 모듈 개발 `참여인원: 1명`\n\n  기타 고객 요구 프로세스 및 웹페이지 개발 참여 `참여인원: 6명`\n\n- 그룹웨어\n\n  전자결재 모듈 및 기타 모듈의 고객 사이트 유지보수\n\n  - 리딩투자증권 그룹웨어 커스터마이징 및 유지보수\n\n  - 가온아이 자체 그룹웨어 커스터마이징 및 유지보수\n\n  - 료비그룹 그룹웨어 커스터마이징 및 유지보수\n\n  Java와 JavaScript를 이용한 XML 기반의 타사 통합검색엔진 연동 모듈 개발 `참여인원: 1명`\n\n  Java를 바탕으로 MSSQL to MariaDB 전자결재 Migration 모듈 개발(약 100만건의 데이터를 처리) `참여인원: 1명`\n\n  Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`\n\n  REST Api를 기반으로 하고 Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`\n\n**at Postopia**\n\n- SI 프로젝트\n\n  Java와 JavaScript를 이용한 이미지 편집이 가능한 디자인교정시스템 개발 참여 `참여인원: 4명`\n\n- 사내 솔루션 개발 및 유지보수\n\n  Java를 이용한 Migration 모듈 개발 `참여인원: 2명`\n\n  사내 솔루션 유지 보수 및 고객 지원\n\n# Study & Project source\n\n- [jongp-Lab](https://github.com/jonggyun/jongp-lab)\n\n    <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->\n\n  - 개인적으로 사용할 블로그\n\n  - 목표: React를 사용한 Web Application 만들기\n\n  - Front-end: React, redux, Sass, cssModule\n\n  - Back-end: Node.js(express), mongoDB, mongoose\n\n<!--\n* [메모장](https://github.com/jonggyun/memo-app)\n\n  - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션\n\n  - 목표: react의 component와 redux의 상태관리를 이해하기\n\n  - Front-end: React, redux, Sass, classname\n\n  - Back-end: Node.js(Koa Framework) -->\n\n- [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)\n\n  - Naver의 영화 검색 api를 이용한 정말 간단한 영화 검색 웹 애플리케이션\n\n  - 목표\n\n    - VanillaJS, ES6, webpack 익숙해지기\n\n    - Typescript에 대한 설정 및 기본 개념 익히기\n\n    - webpack 익숙해지기\n\n    - eslint 익숙해지기\n\n  - Front-end: VanillaJS, ES6, Sass\n\n  - Back-end: Node.js(express)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b7c61972daaba084bff3720530c8c601",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "",
+        "detail": "About"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# 박 종균 (JongGyun Park)\n\n그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있는 **박 종균**입니다.\n\n이전까지 **Java**, **JSP**를 이용한 웹개발을 하고, 현재는 **React**를 이용한 Front-End 개발을 하고 있습니다.\n\n익숙한 방식에 머무르지 않고 조금이라도 더 나은 방식을 찾기 위해 새로운 기술을 습득하는데 노력하고 있습니다.\n\n가장 관심있는 언어는 Javascript입니다. 현재 Javascript의 **node.js**, **React**등에 관심을 갖고 공부하고 있습니다.\n\n<!-- patience\nlaziness -->\n\n# Study\n\n### 현재 관심을 갖고 공부 중인 분야입니다.\n\n- Markup Language - HTML5\n\n- CSS3\n\n- CSS Preprocessor - Sass\n\n- Javascript - ECMAScript 2015\n\n- webpack\n\n* React + redux\n\n* node.js - express\n\n* NoSQL - mongoDB(mongoose)\n\n# Skill\n\n### Skill은 현업에서 사용 중인 기술입니다.\n\n**Front-End :** JavaScript, jQuery, React\n\n**Back-End :** Java(with egovFramework)\n\n**DataBase :** MariaDB, MySQL, Oracle\n\n**Etc :** myBaits, iBatis\n\n# Career\n\n**Plutusds** 2019.02 ~ Current\n\n- React를 이용한 Front-End 개발 및 유지보수\n\n**Kaoni** 2017.06 ~ 2019.01\n\n- 그룹웨어 신규모듈 및 기능 개발 및 유지보수\n\n- 공공기관 SI 프로젝트 개발 및 유지보수\n\n**Postopia** 2016.01 ~ 2017.05\n\n- 사내 솔루션 추가 개발 및 유지보수\n\n- SI 프로젝트 개발 및 유지보수\n\n  <!-- \n  **ION Comunications**(Internship) 2014.08 ~ 2015.02\n\n* SI 프로젝트 개발 -->\n\n# Career Detail\n\n**at Kaoni**\n\n- 그룹웨어 신규 포탈 프로젝트(2018.09 ~ 2018.11) `참여인원: 4명`\n\n  MariaDB, Java를 이용한 REST Api Back-end 개발\n\n  VanillaJS를 이용한 Front-end 개발\n\n- 공공기관 SI 프로젝트(2018.03 ~ 2018.06)\n\n  XML과 Java을 기반으로 타 시스템과 연동 모듈 개발 `참여인원: 3명`\n\n  Java와 JavaScript를 이용한 조직도 트리 커스텀 모듈 개발 `참여인원: 1명`\n\n  기타 고객 요구 프로세스 및 웹페이지 개발 참여 `참여인원: 6명`\n\n- 그룹웨어\n\n  전자결재 모듈 및 기타 모듈의 고객 사이트 유지보수\n\n  - 리딩투자증권 그룹웨어 커스터마이징 및 유지보수\n\n  - 가온아이 자체 그룹웨어 커스터마이징 및 유지보수\n\n  - 료비그룹 그룹웨어 커스터마이징 및 유지보수\n\n  Java와 JavaScript를 이용한 XML 기반의 타사 통합검색엔진 연동 모듈 개발 `참여인원: 1명`\n\n  Java를 바탕으로 MSSQL to MariaDB 전자결재 Migration 모듈 개발(약 100만건의 데이터를 처리) `참여인원: 1명`\n\n  Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`\n\n  REST Api를 기반으로 하고 Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`\n\n**at Postopia**\n\n- SI 프로젝트\n\n  Java와 JavaScript를 이용한 이미지 편집이 가능한 디자인교정시스템 개발 참여 `참여인원: 4명`\n\n- 사내 솔루션 개발 및 유지보수\n\n  Java를 이용한 Migration 모듈 개발 `참여인원: 2명`\n\n  사내 솔루션 유지 보수 및 고객 지원\n\n# Study & Project source\n\n- [jongp-Lab](https://github.com/jonggyun/jongp-lab)\n\n    <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->\n\n  - 개인적으로 사용할 블로그\n\n  - 목표: React를 사용한 Web Application 만들기\n\n  - Front-end: React, redux, Sass, cssModule\n\n  - Back-end: Node.js(express), mongoDB, mongoose\n\n<!--\n* [메모장](https://github.com/jonggyun/memo-app)\n\n  - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션\n\n  - 목표: react의 component와 redux의 상태관리를 이해하기\n\n  - Front-end: React, redux, Sass, classname\n\n  - Back-end: Node.js(Koa Framework) -->\n\n- [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)\n\n  - Naver의 영화 검색 api를 이용한 정말 간단한 영화 검색 웹 애플리케이션\n\n  - 목표\n\n    - VanillaJS, ES6, webpack 익숙해지기\n\n    - Typescript에 대한 설정 및 기본 개념 익히기\n\n    - webpack 익숙해지기\n\n    - eslint 익숙해지기\n\n  - Front-end: VanillaJS, ES6, Sass\n\n  - Back-end: Node.js(express)\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/about/index.md",
+      "fields": {
+        "slug": "/about/"
+      }
+    },
+    "67d3cf9e-0ae4-5255-bc2d-1dfd28077ea2": {
+      "id": "67d3cf9e-0ae4-5255-bc2d-1dfd28077ea2",
+      "children": [],
+      "parent": "77869111-be4f-5582-8b9c-cca66f5b6ec8",
+      "internal": {
+        "content": "\n# HTML 개념 정리\n\n## Markup\n\n태그를 이용해서 어느 부분이 제목이고 본문인지 구별하게 해주는 것.\n\nHTML(HyperText Markup Language)\n\nXML(eXtensible Markup Language)\n\n## doctype\n\n문서 유형을 지정!! <!doctype>\n\n<!doctype> 으로 써도 무관하지만, 강조하기 위해 <!DOCTYPE>으로 표기하기도 한다.\n\ndoctype을 정의하지 않은 경우에는 quirks mode가 적용된다. **quirks mode**는 웹 표준이 고려되지 않은 유형이기 때문에 같은 소스 코드라도 웹 브라우저 현재 버전으로 해석되어 의도한 것과 다른 결과를 낳을 수도 있다.\n\ndoctype에는 html의 버젼과 DTD(Data Type Description)을 포함하고 있음\n\ndoctype은 태그가 아닌 단순한 문서 타입에 대한 표현\n\nhtml5의 경우에는 자체적으로 DTD를 포함하고 있기 때문에 별도로 명시하지 않아도 됨\n\n```\n<!-- html5 -->\n<!doctype html>\n\n<!-- html4 -->\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n\n<!-- XTHML -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n```\n\n| HTML5                         | XHTML                          |\n| ----------------------------- | ------------------------------ |\n| 종료태그가 없어도 됨          | 종료태그가 **반드시** 있어야함 |\n| 대소문자 구분안함             | 대소문자 **구분**              |\n| 요소들 대소문자 가능          | 요소들 **소문자**만 가능       |\n| 속성에 single quotations 가능 | 속성에 single quotations 불가  |\n| 속성에 단축 허용              | 속성에 단축 불가               |\n\n즉, xhtml은 html보다 문법에 엄격. html5가 나오기 전까지 최신의 문서 규격\n\n## head Tag\n\n```\n<head>\n  <meta>\n  <title><title>\n</head>\n```\n\nhead태그에 언어 표기를 하는 경우에는 검색사이트에서 특정 언어로 제한해서 검색할 때 대상이 된다.\n\n```\n<head lang=\"ko\">\n```\n\n한국어도 된 문서를 검색\n\nmeta 태그에는 주로 인코딩이 들어간다.\n\n```\n<meta charset=\"utf-8\">\n```\n\n## Text 관련 Tag\n\n| strong Tag         | b Tag                     |\n| ------------------ | ------------------------- |\n| 중요한 내용을 강조 | 단순히 다른 텍스트와 구별 |\n\n| em Tag            | i Tag                     |\n| ----------------- | ------------------------- |\n| 중요한내용을 강조 | 단순히 다른 텍스트와 구별 |\n\n## a Tag\n\ntarget 속성\n\n| 속성 값  | 설명                                    |                                                               |\n| -------- | --------------------------------------- | ------------------------------------------------------------- |\n| \\_blank  | 새 창이나 새 탭                         |                                                               |\n| \\_self   | 기본 값! 링크가 있는 화면에서 열림      |                                                               |\n| \\_parent | 프레임을 사용할 경우 부모 프레임에 표시 |                                                               |\n| \\_top    | 프레임을 벗어나 전체화면에 표시         | iframe에서 top메뉴까지 포함한 전체화면에 반영할때 사용하면 됨 |\n\n## SVG 이미지 - 많이 써보자 면접에서 많이 물어봤음\n\nScalable Vector Graphics\n\n이미지를 아무리 확대해도 깨지지 않고, 아무리 축소해도 원래의 깨끗한 상태를 유지하는 **벡터이미지**를 사용.\n\n데이터 시각화에서 다이어그램, 지도 등을 구현할 때 많이 사용된다. (d3.js, Raphael.js ...)\n\n구글 지도도 이런 느낌인가??? 확대해도 안깨지니까??\n\n지원하지 않는 브라우저(익스 8이하, 안드로이드 2.3 이하)를 위해 SVG 기능 체크를 해야한다.\n\n[Modernizr](https://modernizr.com)에서 설정한 js파일을 받아 사용\n\n```\n  if(!Modernizr.svg) {\n\n  }\n```\n\n## form\n\n사용자가 웹 사이트로 정보를 보내는 요소들을 전부 form이라고 표현\n\n```\n<form method=\"\" action=\"\" autocomplete=\"\">\n```\n\nautocomplete의 경우 default는 on (자동완성 기능)\n\n### label태그\n\n폼 요소에 레이블을 붙임\n\n```\n<label>레이블<input ...></label>\n\n<label id=\"id\">\n  <input id=\"id\">\n</label>\n```\n\n2가지 방법으로 사용 가능.\n\n2번째의 경우 id를 통해서 쉽게 연결 가능\n\n### checkbox, radio button의 input을 label안에 넣을 경우\n\n꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 click action이 발생한다.\n\n### input type=\"submit\"의 경우 서버로 데이터를 전송, input type=\"image\" src=\"\"는 이미지로 submit을 할수 있음\n\n### input type=\"reset\"은 입력 내용을 모두 지울수 있음\n\n### select\n\n```\n<select size=\"5\" multiple>\n  <option value=\"값\">내용1</option>\n  <option value=\"값\" selected>내용2</option>\n  <option value=\"값\">내용3</option>\n</select>\n```\n\nsize는 화면에 표시될 드롭다운 메뉴 개수를 지정, multiple 속성은 다중 선택이 가능해짐\n\n### textarea\n\n```\n<textarea cols=\"\" rows=\"\">\n</textarea>\n```\n\ncols 가로 너비를 결정(px), rows 세로 줄 개수를 결정\n\n### button tag vs input type=\"button\"\n\n```\n<button>버튼</button>\n<input type=\"button\" value=\"버튼\">\n```\n\nbutton 태그를 사용하면 버튼에 콘텐츠를 포함 가능(이미지 등등 ..) css 통한 디자인도 가능\n\n### button tag vs input type=\"image\"\n\nbutton tag가 서버에서 빨리 읽어 옴\n\n### progress\n\n작업의 진행상태를 표시\n\n```\n<li>\n  <label>제목</label>\n  <progress value=\"10\" max=\"60\"></progress>\n</li>\n```\n\n### meter\n\n전체 크기 중 얼마나 차지하는가를 표시 progress와 비슷하지만 다름\n\n지정된 범위 내에서 어느정도 차지하고 있는지를 표현.\n\n## html5 시맨틱 태그\n\n기존 html4 문서로는 수많은 div태그가 있었기 때문에 정확하게 어떤 역할을 하는지 파악하기가 힘들었음\n\n이름만 보고도 문서 구조에서 어떤 역할을 하는지 쉽게 이해하자-> **시맨틱 태그**가 등장\n\n실제로 웹에서 처리할 때 큰 차이가 발생!\n\n본문을 검색하려면 section이나 article 태그를 찾아 검색하면 되기 때문!! 특히, 시각장애인들이 웹사이트를 이용할 때 유용\n\n### `<header>`\n\n### `<nav>`\n\n동일한 사이트 안에서 문서나 다른 사이트의 문서로 이동하는 **링크** 모음\n\nfooter에서 사이트 링크 모음에도 많이 사용. 즉, 위치에 영향을 받지 않고 사용 가능 (header, section)\n\n### `<section>`\n\n콘텐츠를 주제별로 묶을 때 사용. 섹션의 제목에는 h1~h6 태그가 사용됨\n\nsection 안에 section도 사용 가능. 물론. section과 같은 레벨에 section도 사용 가능\n\n### `<article>`\n\nsection 태그와 혼동하기 쉬움\n\narticle은 독립 적으로 배포하거나 재사용하더라도 완전한 하나의 콘텐츠로 사용 가능한 것\n\narticle 안에 section을 넣을 수도 있음\n\n### `<aside>`\n\n본문 외에 주변에 표시되는 기타 내용\n\n### `<footer>`\n\n연락처 정보와 저작권 정보를 표시\n\nfooter안에 header, section, article 다른 레이아웃 태그 사용 가능\n\n### `<address>`\n\n주로 footer 안에 사용\n\n연락처 정보를 넣는데 사용\n\n### `<div>`\n\n그렇다면 div는 언제 사용하는가?\n\n콘텐츠에 CSS를 적용할 때!!!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "be8308aa48f2eac3a6170a2fab9b68c6",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "HTML 기본 개념부터 다시",
+        "date": "2018-10-27",
+        "tags": [
+          "html",
+          "markup"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# HTML 개념 정리\n\n## Markup\n\n태그를 이용해서 어느 부분이 제목이고 본문인지 구별하게 해주는 것.\n\nHTML(HyperText Markup Language)\n\nXML(eXtensible Markup Language)\n\n## doctype\n\n문서 유형을 지정!! <!doctype>\n\n<!doctype> 으로 써도 무관하지만, 강조하기 위해 <!DOCTYPE>으로 표기하기도 한다.\n\ndoctype을 정의하지 않은 경우에는 quirks mode가 적용된다. **quirks mode**는 웹 표준이 고려되지 않은 유형이기 때문에 같은 소스 코드라도 웹 브라우저 현재 버전으로 해석되어 의도한 것과 다른 결과를 낳을 수도 있다.\n\ndoctype에는 html의 버젼과 DTD(Data Type Description)을 포함하고 있음\n\ndoctype은 태그가 아닌 단순한 문서 타입에 대한 표현\n\nhtml5의 경우에는 자체적으로 DTD를 포함하고 있기 때문에 별도로 명시하지 않아도 됨\n\n```\n<!-- html5 -->\n<!doctype html>\n\n<!-- html4 -->\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n\n<!-- XTHML -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n```\n\n| HTML5                         | XHTML                          |\n| ----------------------------- | ------------------------------ |\n| 종료태그가 없어도 됨          | 종료태그가 **반드시** 있어야함 |\n| 대소문자 구분안함             | 대소문자 **구분**              |\n| 요소들 대소문자 가능          | 요소들 **소문자**만 가능       |\n| 속성에 single quotations 가능 | 속성에 single quotations 불가  |\n| 속성에 단축 허용              | 속성에 단축 불가               |\n\n즉, xhtml은 html보다 문법에 엄격. html5가 나오기 전까지 최신의 문서 규격\n\n## head Tag\n\n```\n<head>\n  <meta>\n  <title><title>\n</head>\n```\n\nhead태그에 언어 표기를 하는 경우에는 검색사이트에서 특정 언어로 제한해서 검색할 때 대상이 된다.\n\n```\n<head lang=\"ko\">\n```\n\n한국어도 된 문서를 검색\n\nmeta 태그에는 주로 인코딩이 들어간다.\n\n```\n<meta charset=\"utf-8\">\n```\n\n## Text 관련 Tag\n\n| strong Tag         | b Tag                     |\n| ------------------ | ------------------------- |\n| 중요한 내용을 강조 | 단순히 다른 텍스트와 구별 |\n\n| em Tag            | i Tag                     |\n| ----------------- | ------------------------- |\n| 중요한내용을 강조 | 단순히 다른 텍스트와 구별 |\n\n## a Tag\n\ntarget 속성\n\n| 속성 값  | 설명                                    |                                                               |\n| -------- | --------------------------------------- | ------------------------------------------------------------- |\n| \\_blank  | 새 창이나 새 탭                         |                                                               |\n| \\_self   | 기본 값! 링크가 있는 화면에서 열림      |                                                               |\n| \\_parent | 프레임을 사용할 경우 부모 프레임에 표시 |                                                               |\n| \\_top    | 프레임을 벗어나 전체화면에 표시         | iframe에서 top메뉴까지 포함한 전체화면에 반영할때 사용하면 됨 |\n\n## SVG 이미지 - 많이 써보자 면접에서 많이 물어봤음\n\nScalable Vector Graphics\n\n이미지를 아무리 확대해도 깨지지 않고, 아무리 축소해도 원래의 깨끗한 상태를 유지하는 **벡터이미지**를 사용.\n\n데이터 시각화에서 다이어그램, 지도 등을 구현할 때 많이 사용된다. (d3.js, Raphael.js ...)\n\n구글 지도도 이런 느낌인가??? 확대해도 안깨지니까??\n\n지원하지 않는 브라우저(익스 8이하, 안드로이드 2.3 이하)를 위해 SVG 기능 체크를 해야한다.\n\n[Modernizr](https://modernizr.com)에서 설정한 js파일을 받아 사용\n\n```\n  if(!Modernizr.svg) {\n\n  }\n```\n\n## form\n\n사용자가 웹 사이트로 정보를 보내는 요소들을 전부 form이라고 표현\n\n```\n<form method=\"\" action=\"\" autocomplete=\"\">\n```\n\nautocomplete의 경우 default는 on (자동완성 기능)\n\n### label태그\n\n폼 요소에 레이블을 붙임\n\n```\n<label>레이블<input ...></label>\n\n<label id=\"id\">\n  <input id=\"id\">\n</label>\n```\n\n2가지 방법으로 사용 가능.\n\n2번째의 경우 id를 통해서 쉽게 연결 가능\n\n### checkbox, radio button의 input을 label안에 넣을 경우\n\n꼭 버튼을 눌러야만 동작하는 것이 아니라, label 안에 포함되는 내용을 선택해도 click action이 발생한다.\n\n### input type=\"submit\"의 경우 서버로 데이터를 전송, input type=\"image\" src=\"\"는 이미지로 submit을 할수 있음\n\n### input type=\"reset\"은 입력 내용을 모두 지울수 있음\n\n### select\n\n```\n<select size=\"5\" multiple>\n  <option value=\"값\">내용1</option>\n  <option value=\"값\" selected>내용2</option>\n  <option value=\"값\">내용3</option>\n</select>\n```\n\nsize는 화면에 표시될 드롭다운 메뉴 개수를 지정, multiple 속성은 다중 선택이 가능해짐\n\n### textarea\n\n```\n<textarea cols=\"\" rows=\"\">\n</textarea>\n```\n\ncols 가로 너비를 결정(px), rows 세로 줄 개수를 결정\n\n### button tag vs input type=\"button\"\n\n```\n<button>버튼</button>\n<input type=\"button\" value=\"버튼\">\n```\n\nbutton 태그를 사용하면 버튼에 콘텐츠를 포함 가능(이미지 등등 ..) css 통한 디자인도 가능\n\n### button tag vs input type=\"image\"\n\nbutton tag가 서버에서 빨리 읽어 옴\n\n### progress\n\n작업의 진행상태를 표시\n\n```\n<li>\n  <label>제목</label>\n  <progress value=\"10\" max=\"60\"></progress>\n</li>\n```\n\n### meter\n\n전체 크기 중 얼마나 차지하는가를 표시 progress와 비슷하지만 다름\n\n지정된 범위 내에서 어느정도 차지하고 있는지를 표현.\n\n## html5 시맨틱 태그\n\n기존 html4 문서로는 수많은 div태그가 있었기 때문에 정확하게 어떤 역할을 하는지 파악하기가 힘들었음\n\n이름만 보고도 문서 구조에서 어떤 역할을 하는지 쉽게 이해하자-> **시맨틱 태그**가 등장\n\n실제로 웹에서 처리할 때 큰 차이가 발생!\n\n본문을 검색하려면 section이나 article 태그를 찾아 검색하면 되기 때문!! 특히, 시각장애인들이 웹사이트를 이용할 때 유용\n\n### `<header>`\n\n### `<nav>`\n\n동일한 사이트 안에서 문서나 다른 사이트의 문서로 이동하는 **링크** 모음\n\nfooter에서 사이트 링크 모음에도 많이 사용. 즉, 위치에 영향을 받지 않고 사용 가능 (header, section)\n\n### `<section>`\n\n콘텐츠를 주제별로 묶을 때 사용. 섹션의 제목에는 h1~h6 태그가 사용됨\n\nsection 안에 section도 사용 가능. 물론. section과 같은 레벨에 section도 사용 가능\n\n### `<article>`\n\nsection 태그와 혼동하기 쉬움\n\narticle은 독립 적으로 배포하거나 재사용하더라도 완전한 하나의 콘텐츠로 사용 가능한 것\n\narticle 안에 section을 넣을 수도 있음\n\n### `<aside>`\n\n본문 외에 주변에 표시되는 기타 내용\n\n### `<footer>`\n\n연락처 정보와 저작권 정보를 표시\n\nfooter안에 header, section, article 다른 레이아웃 태그 사용 가능\n\n### `<address>`\n\n주로 footer 안에 사용\n\n연락처 정보를 넣는데 사용\n\n### `<div>`\n\n그렇다면 div는 언제 사용하는가?\n\n콘텐츠에 CSS를 적용할 때!!!\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-10-27-html-study.md",
+      "fields": {
+        "slug": "/blog/2018-10-27-html-study/"
+      }
+    },
+    "1dfb9843-2c76-5620-af78-9d8b4814619e": {
+      "id": "1dfb9843-2c76-5620-af78-9d8b4814619e",
+      "children": [],
+      "parent": "7d61298a-b21d-5631-a772-05253f7fdced",
+      "internal": {
+        "content": "\n휴가를 즐기는 중 잠이 안와서 작성하는 2018년도 회고록.\n\n아마 싸이월드하던 시절에 작성했던 기억이 있는 거 보면 정말 오랜만에 쓰는 것 같다.\n\n2018년을 정리하면 개발자라는 직업에 조금더 깊이 생각하고, 더욱 좋아하게 되는 계기가 되는 한 해였다.\n\n또한, 인복이 많은 건지 주변에 있는 좋은 사람들 덕에 스스로도 많은 성장을 할 수 있었다. 물론, 아직 많이 부족하다.. 부족하고 또 부족하다.\n\n휴가라 그런가 새벽에도 잠이 오지 않아서 올해 있었던 일들에 대해 정리해보고자 한다.\n\n## SI 프로젝트\n\n연초에 갑자기 투입된 SI 프로젝트에서 같이 투입된 사람들, 외부 사람들과 함께 일하면서 정말 많이 배웠다. 처음 투입될 때는 기존 사람들이 마무리 짓지 못한 프로젝트에 투입되었다는 불만도 있었지만, 정말 다양한 사람들이 작성한 다양한 소스를 볼수 있었다. 그런 소스를 같이 투입된 인력들과 얘기를 나누면서 우리만의 생각을 나눴던 시간은 정말 많은 도움이 되었다.\n\n지금도 부족한 실력이지만 SI 프로젝트를 다녀오기 전에 나와 다녀온 뒤의 나는 분명 다른 사람인 것을 스스로 느낄 수 있었다. SI 프로젝트에서 단순히 개발을 많이 해서 내 스스로 발전했다는 것이 아니다. 그때 같이 투입된 인력들과 정말 생산적인 대화를 많이 나눴기 때문이다.\n\n## 진급\n\n내가 진급도 하는 날이 오다니.. 인턴 포함 지금 다니는 회사가 3번째 회사다. 항상 동기는 있었지만 후임은 없거나 같은 사원 직급이라 후임이라는 개념도 없었다. 진급이란 사람의 행동을 책임감 있게 바꾸는 듯한 느낌을 받았다. 일을 받아도 조금더 비중있는 일을 받는 느낌도 받았고, 뭔가 나에게 의지하는 듯한 질문을 받는 경우도 있었다. 그 때문인지 더 많이 공부하고, 더 많이 알아야 한다는 부담감이 생겨버렸다.\n\n내가 생각하는 개발자 직업은 '내가 잘하는 것을 다른 사람이 모를 수도 있고, 내가 모르는 것을 다른 사람더 잘할 수도 있다. 그렇기 때문에 상하 관계가 아닌 평등한 관계에서 서로 간의 의견 공유가 계속 있어야 한다.'고 생각한다. 그러나 이 직급이라는게 굉장히 부담스럽게 작용한다.\n\n## 독립\n\n6월부터 본가에서 나와 독립을 했다. 생각보다 불편한 점이 없다. 되려 독립한 이후로 공부하는 시간이 더 많이 늘어서 좋다.\n\n집 나가면 다 돈이라더니, 지출이 생각보다 많다. 물을 사먹어야 한다는 생각을 해본적도 없고, 전기 요금, 수도 요금 또한 걱정하면서 살아본 적이 없는데 독립을 하니까 죄다 신경써야하고 어떻게 하면 아껴쓸 수 있나 찾아보고 한다. 본가에 있을 때부터 찾아보고 할 걸. 괜히 샤워하면서 물 잘 안끄고 그랬는데 많이 반성하고 있다.\n\n## 출장\n\n3주간 일본 출장도 다녀왔다. 신선했다. 고객사가 일본 회사여서 일본 개발자들의 모습은 볼수 없었지만, 해외에서 3주간 출퇴근 하는 경험은 한 번쯤은.. 해볼만 한 것 같다. 물론 다른 나라라면 모를까 일본은 다시 가고 싶지 않다. 끔찍한 교통비와 전부다 간장을 기본으로한 음식들은 초반 일주일정도 정말 맛있게 먹고, 언젠가부터 얼큰한 음식을 찾고 있는 나를 발견할 수 있었다.\n\n언어는 써야 는다는게 맞는가보다. 고등학교때 친구 덕에 우연히 접한 일본어다. 대학교 1학년때 까지만 공부하고 그 뒤로는 딱히 공부한 적이 없는데, 초반 며칠만 버벅이고 그 뒤로는 어디가서 굶어죽진 않겠구나 싶을 정도로 쓰는거 보면 역시 언어는 사용할 수록 느는 것 같았다. 개발 언어도 마찬가지겠지..\n\n## 자바스크립트\n\n자바스크립트가 굉장히 좋아졌다. 다른 언어는 눈에 안들어올 정도로 자바스크립트가 좋아졌다. 이유는 명확하지 않지만, 언젠가부터 자바보다는 자바스크립트가 좋아졌다. 할수 있는게 정말 많아서 그런가..? 백단 개발도 가능하지, 프론트단 개발도 가능하지 얼마나 매력적인가. 이것만 해도 공부할게 정말 많다는 게 매력적이고 내가 겪은 자바쓰는 한국 회사들에 대한 이미지가 고정되어 생각하는 것일 수도 있고.\n\n자바스크립트 공부를 시작했다. 그동안 나는 자바스크립트에 대한 공부도 없이 사용해왔다. 그러니 그냥 자바에서 쓰던 반복분, 조건문 등을 똑같이 사용하고 그랬다. 단순이 데이터 타입을 var로 통일해서 쓰면 끝이었다. 알면 알수록 정말 재미난 언어인 것 같다. 아직은 많이 부족하지만 예전보다는 많이 알게되었다고 생각한다.\n\n앞으로는 더 많은 자바스크립트 프레임워크나 라이브러리도 공부하고 싶어졌다. 아. 패턴도.. 하고 싶은 공부가 참 많다. 물론 아직은 리액트에 집중해서 공부하고 있지만! 갑자기 꽂히는 무언가가 있지 않은가. 난 리액트가 그런 라이브러리였다. 더 열심히 공부하고 싶고, 정말 잘 사용하고 싶어졌다.\n\n## 2019년 목표\n\n- 자바스크립트에 대한 심도있는 공부\n\n- 자바스크립트로 풀스텍 개발자가 되기\n\n- 사이드프로젝트 진행(1달에 하나씩 하면 좋겠지만 힘들겠지?)\n\n- 개발서적 월 1권씩은 읽기(집에 사둔 책부터 읽기)\n\n더 쓰고 싶은데 졸려서 안되겠다. 올해도 고생했고 원하는 만큼 성장한 개발자가 되지는 못했지만 내년에는 더 열심히 해서 꼭 내가 생각하고 있는 레벨의 개발자가 될수 있도록 하고 싶다.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "00e1b8f3f3c021103500a17b3c1feee1",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "2018 회고록",
+        "date": "2018-12-27",
+        "tags": [
+          "2018",
+          "memorior"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n휴가를 즐기는 중 잠이 안와서 작성하는 2018년도 회고록.\n\n아마 싸이월드하던 시절에 작성했던 기억이 있는 거 보면 정말 오랜만에 쓰는 것 같다.\n\n2018년을 정리하면 개발자라는 직업에 조금더 깊이 생각하고, 더욱 좋아하게 되는 계기가 되는 한 해였다.\n\n또한, 인복이 많은 건지 주변에 있는 좋은 사람들 덕에 스스로도 많은 성장을 할 수 있었다. 물론, 아직 많이 부족하다.. 부족하고 또 부족하다.\n\n휴가라 그런가 새벽에도 잠이 오지 않아서 올해 있었던 일들에 대해 정리해보고자 한다.\n\n## SI 프로젝트\n\n연초에 갑자기 투입된 SI 프로젝트에서 같이 투입된 사람들, 외부 사람들과 함께 일하면서 정말 많이 배웠다. 처음 투입될 때는 기존 사람들이 마무리 짓지 못한 프로젝트에 투입되었다는 불만도 있었지만, 정말 다양한 사람들이 작성한 다양한 소스를 볼수 있었다. 그런 소스를 같이 투입된 인력들과 얘기를 나누면서 우리만의 생각을 나눴던 시간은 정말 많은 도움이 되었다.\n\n지금도 부족한 실력이지만 SI 프로젝트를 다녀오기 전에 나와 다녀온 뒤의 나는 분명 다른 사람인 것을 스스로 느낄 수 있었다. SI 프로젝트에서 단순히 개발을 많이 해서 내 스스로 발전했다는 것이 아니다. 그때 같이 투입된 인력들과 정말 생산적인 대화를 많이 나눴기 때문이다.\n\n## 진급\n\n내가 진급도 하는 날이 오다니.. 인턴 포함 지금 다니는 회사가 3번째 회사다. 항상 동기는 있었지만 후임은 없거나 같은 사원 직급이라 후임이라는 개념도 없었다. 진급이란 사람의 행동을 책임감 있게 바꾸는 듯한 느낌을 받았다. 일을 받아도 조금더 비중있는 일을 받는 느낌도 받았고, 뭔가 나에게 의지하는 듯한 질문을 받는 경우도 있었다. 그 때문인지 더 많이 공부하고, 더 많이 알아야 한다는 부담감이 생겨버렸다.\n\n내가 생각하는 개발자 직업은 '내가 잘하는 것을 다른 사람이 모를 수도 있고, 내가 모르는 것을 다른 사람더 잘할 수도 있다. 그렇기 때문에 상하 관계가 아닌 평등한 관계에서 서로 간의 의견 공유가 계속 있어야 한다.'고 생각한다. 그러나 이 직급이라는게 굉장히 부담스럽게 작용한다.\n\n## 독립\n\n6월부터 본가에서 나와 독립을 했다. 생각보다 불편한 점이 없다. 되려 독립한 이후로 공부하는 시간이 더 많이 늘어서 좋다.\n\n집 나가면 다 돈이라더니, 지출이 생각보다 많다. 물을 사먹어야 한다는 생각을 해본적도 없고, 전기 요금, 수도 요금 또한 걱정하면서 살아본 적이 없는데 독립을 하니까 죄다 신경써야하고 어떻게 하면 아껴쓸 수 있나 찾아보고 한다. 본가에 있을 때부터 찾아보고 할 걸. 괜히 샤워하면서 물 잘 안끄고 그랬는데 많이 반성하고 있다.\n\n## 출장\n\n3주간 일본 출장도 다녀왔다. 신선했다. 고객사가 일본 회사여서 일본 개발자들의 모습은 볼수 없었지만, 해외에서 3주간 출퇴근 하는 경험은 한 번쯤은.. 해볼만 한 것 같다. 물론 다른 나라라면 모를까 일본은 다시 가고 싶지 않다. 끔찍한 교통비와 전부다 간장을 기본으로한 음식들은 초반 일주일정도 정말 맛있게 먹고, 언젠가부터 얼큰한 음식을 찾고 있는 나를 발견할 수 있었다.\n\n언어는 써야 는다는게 맞는가보다. 고등학교때 친구 덕에 우연히 접한 일본어다. 대학교 1학년때 까지만 공부하고 그 뒤로는 딱히 공부한 적이 없는데, 초반 며칠만 버벅이고 그 뒤로는 어디가서 굶어죽진 않겠구나 싶을 정도로 쓰는거 보면 역시 언어는 사용할 수록 느는 것 같았다. 개발 언어도 마찬가지겠지..\n\n## 자바스크립트\n\n자바스크립트가 굉장히 좋아졌다. 다른 언어는 눈에 안들어올 정도로 자바스크립트가 좋아졌다. 이유는 명확하지 않지만, 언젠가부터 자바보다는 자바스크립트가 좋아졌다. 할수 있는게 정말 많아서 그런가..? 백단 개발도 가능하지, 프론트단 개발도 가능하지 얼마나 매력적인가. 이것만 해도 공부할게 정말 많다는 게 매력적이고 내가 겪은 자바쓰는 한국 회사들에 대한 이미지가 고정되어 생각하는 것일 수도 있고.\n\n자바스크립트 공부를 시작했다. 그동안 나는 자바스크립트에 대한 공부도 없이 사용해왔다. 그러니 그냥 자바에서 쓰던 반복분, 조건문 등을 똑같이 사용하고 그랬다. 단순이 데이터 타입을 var로 통일해서 쓰면 끝이었다. 알면 알수록 정말 재미난 언어인 것 같다. 아직은 많이 부족하지만 예전보다는 많이 알게되었다고 생각한다.\n\n앞으로는 더 많은 자바스크립트 프레임워크나 라이브러리도 공부하고 싶어졌다. 아. 패턴도.. 하고 싶은 공부가 참 많다. 물론 아직은 리액트에 집중해서 공부하고 있지만! 갑자기 꽂히는 무언가가 있지 않은가. 난 리액트가 그런 라이브러리였다. 더 열심히 공부하고 싶고, 정말 잘 사용하고 싶어졌다.\n\n## 2019년 목표\n\n- 자바스크립트에 대한 심도있는 공부\n\n- 자바스크립트로 풀스텍 개발자가 되기\n\n- 사이드프로젝트 진행(1달에 하나씩 하면 좋겠지만 힘들겠지?)\n\n- 개발서적 월 1권씩은 읽기(집에 사둔 책부터 읽기)\n\n더 쓰고 싶은데 졸려서 안되겠다. 올해도 고생했고 원하는 만큼 성장한 개발자가 되지는 못했지만 내년에는 더 열심히 해서 꼭 내가 생각하고 있는 레벨의 개발자가 될수 있도록 하고 싶다.\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-12-27-2018memoir.md",
+      "fields": {
+        "slug": "/blog/2018-12-27-2018memoir/"
+      }
+    },
+    "399e2c5e-d52e-53c8-b5f4-46d2a7e44462": {
+      "id": "399e2c5e-d52e-53c8-b5f4-46d2a7e44462",
+      "children": [],
+      "parent": "744f4c2c-4c94-59b9-af7a-dbdb5495cf7e",
+      "internal": {
+        "content": "\n# CSS 개념 정리\n\n태그 - 태그 그 자체\n\n요소 - 태그가 적용된 내용들\n\n## css 적용\n\nh2.bluetext - h2태그이면서 class 선택자가 .bluetext인 내용에만 적용\n\nh1, h2 - h1태그에도 적용 h2태그에도 적용. 이런 것들을 **그룹선택자**라고 표현\n\n## Cascading Style Sheets\n\n**위에서 아래로 흐르는 스타일시트**\n\n1. 스타일 우선순위 - 우선순위에 따라 위에서 아래로 적용\n\n   - 사용자 스타일 시트\n\n     최우선으로 적용되는 스타일 시트\n\n     저시력자나 색양작를 위한 스타일 시트, 시스템을 통해 만들어 졌기에 제작자가 컨트롤 불가\n\n   - 중요 스타일 !important\n\n     제작자가 만들 스타일에 !important를 붙이는 것. 일반 스타일보다 우선\n\n   - 브라우저 스타일 시트\n\n   - 스타일이 충돌할 경우에 필요한 **명시도**\n\n     인라인 스타일 > id 스타일 > 클래스 스타일 > 태그 스타일\n\n     순서로 우선시 되어 적용\n\n   - 소스에서 중복될 경우\n\n     같은 셀럭터에 다른 스타일이 중복 적용된 경우엔 나중에 나온 스타일이 적용\n\n     소스가 Cascading 되면서 위에서 선언된 내용을 덮어씀\n\n2. 스타일 상속 - 부모 요소의 스타일을 자식 요소로, 위에서 아래로 적용\n\n## CSS3\n\n- 아직 완벽하게 지원되는 브라우저가 없음\n\n- 표준화가 되지 않음. 표준화 단계는 확인이 가능. [W3C 문서](https://www.w3.org/Style/CSS/) 참고\n\n- 표준 규약이 아닌 속성들은 브라우저에 따라 지원 방식이 다름\n\n  - prefix를 통해 각 브라우저별로 제어 가능\n\n    - | prefix   | desc                  |\n      | -------- | --------------------- |\n      | -webkit- | 사파리, 크롬 등       |\n      | -moz-    | 모질라, 파이어폭스 등 |\n      | -o-      | 오페라                |\n      | -ms-     | 익스플로러            |\n\n          -webkit-column-count:3; 사파리, 크롬에 적용\n\n          -moz-column-count:3; 파이어폭스\n\n          column-count:3 나중에 표준이 된 경우에 사용\n\n  - [-prefix-free](https://leaverou.github.io/prefixfree) 를 이용하면 접두사를 붙이지 않아도 됨\n\n## 텍스트 관련 스타일\n\n- 글꼴 관련\n\n  - font-family - 글꼴 지정하기\n\n  - @font-face - 웹 폰트 사용하기\n\n    - CSS3가 웹 폰트를 표준으로 채택\n\n    - 웹 문서를 작성할 때 그 안에 폰트 정보도 함께 저장. 사용자가 웹에 접근했을 경우 해당 폰트를 자동으로 다운로드 받게 하는 방식\n\n    - [구글 웹 폰트](https://fonts.google.com/earlyaccess)\n\n      ```\n      <style>\n        @import url(http:// ........);\n      </style>\n      ```\n\n      선언하고 font-family에 선언해서 사용하면 됨.\n\n  - font-size - 글자 크기 조절\n\n    - em, ex, px, pt.. 등의 사이즈가 존재. em은 해당 글꼴의 대문자 M을 기준으로 조절. 1em->16px;\n\n    - px는 폰트 크기가 고정되는 것이기 때문에 모바일에서 굉장히 작은 사이즈이 글꼴로 보임\n\n  - font-weight - 글자 굵기 조절\n\n  - font-style - 글자 스타일 지정\n\n    - normal, italic ..\n\n  - font를 한 번에 정의 하려면\n\n    ```\n    .h1 {\n      font : 여기에 다 정의 하면 됨\n    }\n    ```\n\n- 텍스트 관련\n\n  - color - 글자 색 지정\n\n  - text-decoration - 텍스트에 줄 표시하기 없애기\n\n    - none, underline, overline, line-through\n\n    - a 링크를 사용할 경우 자동으로 생기는 밑줄을 없앨 때는 text-decoration:none; 을 이용\n\n  - white-space - 공백 처리\n\n    - normal, nowrap, pre, pre-line, pre-wrap\n\n    - 한 줄에 모든 내용을 영역의 너비 상관없이 표시하고 싶을 경우엔 white-space:nowrap;을 사용\n\n- 문단 스타일\n\n  - text-align - 텍스트 정렬하기\n\n    - start, end, left, right, center, justify, match-parent\n\n    - justify - 양쪽에 맞추어서 문단을 꽉차게 정렬, 양쪽에 맞춰서 정렬을 하다보니 글자, 단어 간의 공백이 어색할 수 있음\n\n  - text-justify - 정렬시 공백 조절\n\n    - text-align:justify;인 경우. 사용\n\n  - line-height - 줄 간격 조절\n\n    - 줄 간격을 조절해서 문단 내의 줄을 더 넓게, 좁게 표현 가능\n\n  - text-overflow - 넘치는 텍스트에 대한 처리\n\n    - overflow:hidden; 이거나 overflow:scroll, overflow:auto; && white-space:nowrap;인 경우. 텍스트가 영역을 넘어서는 내용에 대한 처리\n\n    - text-overflow:clip;넘치는 내용 제거, text-overflow:ellipsis; 말 줄임표 사용\n\n- 목록 스타일\n\n  - list-style-type - li 태그에 대한 불릿 스타일 지정\n\n    - nav 태그를 사용해서 메뉴를 만들 경우 에는 불릿이 필요 없음. list-style-type:none;\n\n  - list-style-image - li 태그 불릿에 이미지 넣기\n\n## 색상과 배경을 위한 스타일\n\n- background-color\n\n- background-image\n\n- background-repeat\n\n- background-position\n\n  - 이미지의 위치를 지정\n\n  - background-origin으로 이미지의 위치가 시작될 배치기준을 정할 수 있다.\n\n  - background-origin으로 기준을 정하고 background-position으로 위치를 조정\n\n- background-attachment\n\n  - background-attachment:scroll;\n\n    배경 이미지가 스크롤 됨\n\n  - background-attachment:fixed;\n\n    배경 이미지는 고정되고 스크롤 됨\n\n- background-size\n\n- background - 위의 속성을 한꺼번에 지정\n\n  - font 속성도 전체를 지정하듯 background도 속성을 한번에 지정\n\n## 레이아웃을 위한 스타일\n\n- 블록 레벨 vs 인라인 레벨\n\n  - 블록 레벨\n\n    - 요소가 혼자 한 줄을 차지하는 요소\n\n  - 인라인 레벨\n\n    - 줄을 차지 하지 않는 요소\n\n  - | 종류         | 태그                                             |\n    | ------------ | ------------------------------------------------ |\n    | block level  | `<p>, <h1>~<h6>, <ul>, <ol>, <div>, <table> ...` |\n    | inline level | `<img>, <span>, <label>, <button>`               |\n\n- 박스 모델\n\n  - 블록 레벨 요소들은 모두 박스 형태!!\n\n- display 속성\n\n  - display:block;\n\n    - block 레벨로 사용하겠다는 내용. 즉, 한 줄을 다 사용하겠다는 것. 블록 레벨은 패딩, 마진 등의 값을 사용 가능\n\n  - display:inline;\n\n    - inline 요소로 사용하겠다는 것. 한 줄에 요소를 정렬할 때 필요\n\n    - ex) 세로로 배치되는 li를 수평으로 배치할 때 사용\n\n  - display:inline-block;\n\n    - vs display:inline;\n\n      - inline으로 지정하면 한 줄로 배치할 수 있지만 너비, 높이, 마진 등의 박스 모델 값을 정확히 적용할 수 없다\n\n    - inline-block을 사용한다는 것은 block의 특성과 inline의 특성을 모두 갖는다는 것을 의미\n\n    - 옆으로 정렬하면서 높이, 너비, 마진 등을 조절할 수 있음\n\n- margin\n\n  - 요소 간의 간격 조절\n\n  - margin-left: auto; , margin-right:auto; 로 지정할 경우 좌우 공간의 마진을 똑같이 맞춰줌-> 가운데 정렬\n\n- padding\n\n  - 테두리 안쪽 여백, 콘텐츠 영역과 테두리 사이의 여백\n\n## CSS 포지셔닝\n\n- box-sizing 속성을 사용하면 margin, padding 등을 전부 포함한 너비를 정할 수 있다.\n\n  - box-sizing:content-box; 기본값. 즉, margin, padding 등을 따로 합친다.\n\n  - box-sizing:border-box; width가 margin, padding을 전부 포함해서 처리\n\n- float:left, float:right;\n\n- float 속성은 다른 요소들에도 똑같이 속성이 전달되는데, 그 속성을 무효 시켜려면 clear:left|right|both를 사용하면 됨\n\n- position 속성\n\n  - position:relative; 이전 요소와 자연스럽게 연결해서 배치\n\n    - 겹쳐서 배치시킬수 도 있음\n\n  - position:absolute; 원하는 위치에 배정\n\n    - absolute가 기준이 되는 위치는 부모, 조상요소 중 position 속성이 relative인 요소.\n\n    - absolute를 사용하려면 relative요소가 필수로 필요\n\n  - position:flexed;\n\n    - absolute와 다르게 브라우저 창이 기준.\n\n## CSS3 선택자\n\n- 연결 선택자\n\n  - 하위 선택자(descendant selector)\n\n    - selection p { color: blue; }\n\n    - 하위 요소 전부에 적용\n\n    - 자식 선택자(child selector)\n\n      - selection > p { color: blue; }\n\n      - 바로 아래 요소에만 적용\n\n    - 인접 형제 선택자(adjacent selector)\n\n      - h1 + p { color: blue; }\n\n      - 가장 근처에 있는 해당 요소에도 적용\n\n    ```\n    <style>\n    h1 + ul {\n      color: blue;\n      }\n      </style>\n\n    <section>\n      <h1>제목</h1>\n      <ul>여기1</ul>\n      <ul>여기2</ul>\n    </section>\n    ```\n\n    - **제목, 여기1**에만 적용된다\n\n    - 형제 선택자(sibling selector)\n\n      - h1 ~ p { color: blue; }\n\n      - 모든 형제 요소에 적용\n\n    ```\n    <style>\n    h1 + ul {\n      color: blue;\n      }\n      </style>\n\n    <section>\n      <h1>제목</h1>\n      <ul>여기1</ul>\n      <ul>여기2</ul>\n    </section>\n    ```\n\n    - **제목, 여기1, 여기2**에 모두 적용\n\n- 속성 선택자\n\n  - 태그 안의 속성들의 값에 따라 스타일을 지정\n\n  - | 기본형       | 스타일 적용시                   | 예시 - 선택자                      |\n    | ------------ | ------------------------------- | ---------------------------------- |\n    | [속성]       |                                 | [href]                             |\n    | [속성 = 값]  | '값'에 일치할 때                | [target=\"_blank\"]                  |\n    | [속성 ~= 값] | 여러 값 중에 단어로 포함된 경우 | [class ~= \"button\"]                |\n    | [속성        | = 값]                           | '값'이 포함되어 있을 때 (- 포함!!) | [class | = \"us\"] |\n    | [속성 ^= 값] | '값'으로 시작할 때              | [title ^=\"eng\"]                    |\n    | [속성 $= 값] | '값'으로 끝날 때                | [title &=\"xls\"]                    |\n    | [속성 *= 값] | '값'이 포함된 어떤 단어든 가능  | [href *= \"w3\"]                     |\n\n- 가상 클래스와 가상 요소\n\n  - 가상클래스는 콜론(:), 가상 요소는 콜론 두 개(::)를 사용\n\n  - 가상 클래스\n\n    - :link - 방문하지 않은 링크\n\n    - :visited - 방문한 링크\n\n    - :hover - 마우스 커서가 올라왔을 경우\n\n    - :active - 마우스로 누르고 있을 경우(활성화된 경우)\n\n    - :focus - 초점이 맞춰졌을 경우\n\n    - link, visited, hover, active 순서로 정의해야한다! 그렇지 않으면 정상 작동이 안됨\n\n    - :enabled, :disabled - 사용가능, 불가능\n\n    - :checked - 선택했을 경우\n\n## CSS3 애니메이션\n\n- transform - 회전, 이동할 때 사용\n\n  - 2차원, 3차원 둘다 가능\n\n    - translate, translateX, translateY, scale, scaleX, scaleY ...\n\n    - translate3d, transalteZ, scale3d, scaleZ ...\n\n    - ex) .tag:hover { transform:translate(tx, ty); }\n\n- transition - 변환 효과 줄 때\n\n  - transition은 완전히 다른 스타일로 변화를 줄 때 사용!\n\n- animation - 애니메이션 효과 만들기\n\n  - transition과 비슷하지만 keyframe이라는 중간지점이 있다는 것이 다른 점\n\n  - 즉, 시작하고 끝날 때 까지 원하는 지점에서 전부 애니메이션을 통해 변화를 줄 수 있음\n\n- @keyframes - 애니메이션 효과에서 중간 지점 만들기\n\n  - from to는 시작 위치와 끝 위치를 0%, 100%로 지정한다는 이야기\n\n  - 원하는 위치? 구간?에 대한 표시를 하고 사용하면 됨\n\n    - ex)\n      ```\n      50% {\n        background-color: blue;\n        border: 1px solid black;\n      }\n      ```\n\n  - animation-name - 사용하려는 keyframes를 명시 하는 곳\n\n  - ```\n    div {\n       width: 100px;\n        height: 100px;\n        background-color: blue;\n        animation-name: change-bg;\n        animation-duration: 3s;\n      }\n    @keyframes change-bg {\n        from {\n          background-color: blue;\n          border: 1px solid black;\n        }\n        to {\n          background-color: #a5d6ff;\n          border:1px solid blue;\n          border-radius: 50%;\n        }\n      }\n    ```\n\n## 반응형 웹 만들기\n\n- 뷰포트(viewport)\n\n  - 스마트폰 화면에서 실제 내용이 표시되는 영역\n\n  - 뷰포트를 지정하면 접속한 기기 화면에 맞추어 확대 혹은 축소해서 표시 가능\n\n- 가변 글꼴\n\n  - em vs rem\n\n    | em                                                               | rem                                         |\n    | ---------------------------------------------------------------- | ------------------------------------------- |\n    | 부모 요소에서 지정한 폰트의 대문자 M의 너비를 1em(16px)으로 지정 | root에서 지정한 글꼴 사이즈를 바탕으로 계산 |\n    | 부모 글꼴에 따라 글자크기의 영향을 크게 받는다                   | 중간에 기본값이 변하지 않는다               |\n\n- img 태그에 srcset 속성\n\n  - 화면 너비 값이나 픽셀에 따라 이미지를 지정가능\n\n  - `<img src=\"\" srcset=\"\">`\n\n  - picture 태그, source 태그(html5.1)\n\n    - media 쿼리를 통해 해상도별 이미지 지정 가능\n\n- 미디어 쿼리\n\n  - 접속하는 장치에 따라 특정 css를 사용\n\n  - 중단점 사용이 가능 - 중단점을 통해 기기별 혹은 사이즈별로 css를 사용 가능\n\n- 플렉서블 박스 레이아웃\n\n  - 요소를 플렉서블하게 사용하려면? - 플렉스 컨테이너로 묶어야 함 ex) display:flex;\n\n  - 브라우저마다 지원하는 방식이 다르기에 브라우저 접두사가 필요\n\n    ```\n    display:-webkit-box; /* iOS6이하, 사파리 3.1 */\n    display:-moz-box; /* 파폭 19이하 */\n    display:-ms-flexbox; /* IE 10 */\n    display:-webkit-flex; /* 웹킷 구버전 */\n    display:flex /* 표준 */\n    ```\n\n  - flex-direction : 방향 지정\n\n    - row or column\n\n  - flex-wrap - 한 줄 또는 여러 줄 배치\n\n    - no-wrap - 한 줄에 표시(기본 값)\n\n    - wrap - 여러 줄에 표시\n\n  - flex-flow - 플렉스 방향과 여러 줄의 배치를 한 번에 지정\n\n    - flex-flow:colum wrap; - 위에서 아래로, 여러 줄에 표시\n\n  - flex - 플렉스 항목의 크기 조절\n\n    - flex:1 1 0; - 늘이거나 줄이지 않음\n\n    - flex:2 2 0; - 2배 늘리거나 2배 줄임\n\n  - justify-content - 주축(가로)의 배치 방법 지정\n\n    - flext-end - 주축의 끝점을 기준으로 배치(우측 정렬?)\n\n    - space-around - 항목을 같은 간격으로 배치 (전체에서 중간중간에 동일 간격으로 margin?? 발생)\n\n  - align-items - 교차축(세로) 기준 배치방법\n\n    - center\n\n    - flex-end - 교차축의 끝점으로 배치(footer의 경우 최하단에 배치)\n\n  - align-content - 여러 줄일 때 배치 방법 지정\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "fdf2e835a2437c0f546ac7ffb7022799",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "CSS 개념 공부",
+        "date": "2018-10-27",
+        "tags": [
+          "css"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# CSS 개념 정리\n\n태그 - 태그 그 자체\n\n요소 - 태그가 적용된 내용들\n\n## css 적용\n\nh2.bluetext - h2태그이면서 class 선택자가 .bluetext인 내용에만 적용\n\nh1, h2 - h1태그에도 적용 h2태그에도 적용. 이런 것들을 **그룹선택자**라고 표현\n\n## Cascading Style Sheets\n\n**위에서 아래로 흐르는 스타일시트**\n\n1. 스타일 우선순위 - 우선순위에 따라 위에서 아래로 적용\n\n   - 사용자 스타일 시트\n\n     최우선으로 적용되는 스타일 시트\n\n     저시력자나 색양작를 위한 스타일 시트, 시스템을 통해 만들어 졌기에 제작자가 컨트롤 불가\n\n   - 중요 스타일 !important\n\n     제작자가 만들 스타일에 !important를 붙이는 것. 일반 스타일보다 우선\n\n   - 브라우저 스타일 시트\n\n   - 스타일이 충돌할 경우에 필요한 **명시도**\n\n     인라인 스타일 > id 스타일 > 클래스 스타일 > 태그 스타일\n\n     순서로 우선시 되어 적용\n\n   - 소스에서 중복될 경우\n\n     같은 셀럭터에 다른 스타일이 중복 적용된 경우엔 나중에 나온 스타일이 적용\n\n     소스가 Cascading 되면서 위에서 선언된 내용을 덮어씀\n\n2. 스타일 상속 - 부모 요소의 스타일을 자식 요소로, 위에서 아래로 적용\n\n## CSS3\n\n- 아직 완벽하게 지원되는 브라우저가 없음\n\n- 표준화가 되지 않음. 표준화 단계는 확인이 가능. [W3C 문서](https://www.w3.org/Style/CSS/) 참고\n\n- 표준 규약이 아닌 속성들은 브라우저에 따라 지원 방식이 다름\n\n  - prefix를 통해 각 브라우저별로 제어 가능\n\n    - | prefix   | desc                  |\n      | -------- | --------------------- |\n      | -webkit- | 사파리, 크롬 등       |\n      | -moz-    | 모질라, 파이어폭스 등 |\n      | -o-      | 오페라                |\n      | -ms-     | 익스플로러            |\n\n          -webkit-column-count:3; 사파리, 크롬에 적용\n\n          -moz-column-count:3; 파이어폭스\n\n          column-count:3 나중에 표준이 된 경우에 사용\n\n  - [-prefix-free](https://leaverou.github.io/prefixfree) 를 이용하면 접두사를 붙이지 않아도 됨\n\n## 텍스트 관련 스타일\n\n- 글꼴 관련\n\n  - font-family - 글꼴 지정하기\n\n  - @font-face - 웹 폰트 사용하기\n\n    - CSS3가 웹 폰트를 표준으로 채택\n\n    - 웹 문서를 작성할 때 그 안에 폰트 정보도 함께 저장. 사용자가 웹에 접근했을 경우 해당 폰트를 자동으로 다운로드 받게 하는 방식\n\n    - [구글 웹 폰트](https://fonts.google.com/earlyaccess)\n\n      ```\n      <style>\n        @import url(http:// ........);\n      </style>\n      ```\n\n      선언하고 font-family에 선언해서 사용하면 됨.\n\n  - font-size - 글자 크기 조절\n\n    - em, ex, px, pt.. 등의 사이즈가 존재. em은 해당 글꼴의 대문자 M을 기준으로 조절. 1em->16px;\n\n    - px는 폰트 크기가 고정되는 것이기 때문에 모바일에서 굉장히 작은 사이즈이 글꼴로 보임\n\n  - font-weight - 글자 굵기 조절\n\n  - font-style - 글자 스타일 지정\n\n    - normal, italic ..\n\n  - font를 한 번에 정의 하려면\n\n    ```\n    .h1 {\n      font : 여기에 다 정의 하면 됨\n    }\n    ```\n\n- 텍스트 관련\n\n  - color - 글자 색 지정\n\n  - text-decoration - 텍스트에 줄 표시하기 없애기\n\n    - none, underline, overline, line-through\n\n    - a 링크를 사용할 경우 자동으로 생기는 밑줄을 없앨 때는 text-decoration:none; 을 이용\n\n  - white-space - 공백 처리\n\n    - normal, nowrap, pre, pre-line, pre-wrap\n\n    - 한 줄에 모든 내용을 영역의 너비 상관없이 표시하고 싶을 경우엔 white-space:nowrap;을 사용\n\n- 문단 스타일\n\n  - text-align - 텍스트 정렬하기\n\n    - start, end, left, right, center, justify, match-parent\n\n    - justify - 양쪽에 맞추어서 문단을 꽉차게 정렬, 양쪽에 맞춰서 정렬을 하다보니 글자, 단어 간의 공백이 어색할 수 있음\n\n  - text-justify - 정렬시 공백 조절\n\n    - text-align:justify;인 경우. 사용\n\n  - line-height - 줄 간격 조절\n\n    - 줄 간격을 조절해서 문단 내의 줄을 더 넓게, 좁게 표현 가능\n\n  - text-overflow - 넘치는 텍스트에 대한 처리\n\n    - overflow:hidden; 이거나 overflow:scroll, overflow:auto; && white-space:nowrap;인 경우. 텍스트가 영역을 넘어서는 내용에 대한 처리\n\n    - text-overflow:clip;넘치는 내용 제거, text-overflow:ellipsis; 말 줄임표 사용\n\n- 목록 스타일\n\n  - list-style-type - li 태그에 대한 불릿 스타일 지정\n\n    - nav 태그를 사용해서 메뉴를 만들 경우 에는 불릿이 필요 없음. list-style-type:none;\n\n  - list-style-image - li 태그 불릿에 이미지 넣기\n\n## 색상과 배경을 위한 스타일\n\n- background-color\n\n- background-image\n\n- background-repeat\n\n- background-position\n\n  - 이미지의 위치를 지정\n\n  - background-origin으로 이미지의 위치가 시작될 배치기준을 정할 수 있다.\n\n  - background-origin으로 기준을 정하고 background-position으로 위치를 조정\n\n- background-attachment\n\n  - background-attachment:scroll;\n\n    배경 이미지가 스크롤 됨\n\n  - background-attachment:fixed;\n\n    배경 이미지는 고정되고 스크롤 됨\n\n- background-size\n\n- background - 위의 속성을 한꺼번에 지정\n\n  - font 속성도 전체를 지정하듯 background도 속성을 한번에 지정\n\n## 레이아웃을 위한 스타일\n\n- 블록 레벨 vs 인라인 레벨\n\n  - 블록 레벨\n\n    - 요소가 혼자 한 줄을 차지하는 요소\n\n  - 인라인 레벨\n\n    - 줄을 차지 하지 않는 요소\n\n  - | 종류         | 태그                                             |\n    | ------------ | ------------------------------------------------ |\n    | block level  | `<p>, <h1>~<h6>, <ul>, <ol>, <div>, <table> ...` |\n    | inline level | `<img>, <span>, <label>, <button>`               |\n\n- 박스 모델\n\n  - 블록 레벨 요소들은 모두 박스 형태!!\n\n- display 속성\n\n  - display:block;\n\n    - block 레벨로 사용하겠다는 내용. 즉, 한 줄을 다 사용하겠다는 것. 블록 레벨은 패딩, 마진 등의 값을 사용 가능\n\n  - display:inline;\n\n    - inline 요소로 사용하겠다는 것. 한 줄에 요소를 정렬할 때 필요\n\n    - ex) 세로로 배치되는 li를 수평으로 배치할 때 사용\n\n  - display:inline-block;\n\n    - vs display:inline;\n\n      - inline으로 지정하면 한 줄로 배치할 수 있지만 너비, 높이, 마진 등의 박스 모델 값을 정확히 적용할 수 없다\n\n    - inline-block을 사용한다는 것은 block의 특성과 inline의 특성을 모두 갖는다는 것을 의미\n\n    - 옆으로 정렬하면서 높이, 너비, 마진 등을 조절할 수 있음\n\n- margin\n\n  - 요소 간의 간격 조절\n\n  - margin-left: auto; , margin-right:auto; 로 지정할 경우 좌우 공간의 마진을 똑같이 맞춰줌-> 가운데 정렬\n\n- padding\n\n  - 테두리 안쪽 여백, 콘텐츠 영역과 테두리 사이의 여백\n\n## CSS 포지셔닝\n\n- box-sizing 속성을 사용하면 margin, padding 등을 전부 포함한 너비를 정할 수 있다.\n\n  - box-sizing:content-box; 기본값. 즉, margin, padding 등을 따로 합친다.\n\n  - box-sizing:border-box; width가 margin, padding을 전부 포함해서 처리\n\n- float:left, float:right;\n\n- float 속성은 다른 요소들에도 똑같이 속성이 전달되는데, 그 속성을 무효 시켜려면 clear:left|right|both를 사용하면 됨\n\n- position 속성\n\n  - position:relative; 이전 요소와 자연스럽게 연결해서 배치\n\n    - 겹쳐서 배치시킬수 도 있음\n\n  - position:absolute; 원하는 위치에 배정\n\n    - absolute가 기준이 되는 위치는 부모, 조상요소 중 position 속성이 relative인 요소.\n\n    - absolute를 사용하려면 relative요소가 필수로 필요\n\n  - position:flexed;\n\n    - absolute와 다르게 브라우저 창이 기준.\n\n## CSS3 선택자\n\n- 연결 선택자\n\n  - 하위 선택자(descendant selector)\n\n    - selection p { color: blue; }\n\n    - 하위 요소 전부에 적용\n\n    - 자식 선택자(child selector)\n\n      - selection > p { color: blue; }\n\n      - 바로 아래 요소에만 적용\n\n    - 인접 형제 선택자(adjacent selector)\n\n      - h1 + p { color: blue; }\n\n      - 가장 근처에 있는 해당 요소에도 적용\n\n    ```\n    <style>\n    h1 + ul {\n      color: blue;\n      }\n      </style>\n\n    <section>\n      <h1>제목</h1>\n      <ul>여기1</ul>\n      <ul>여기2</ul>\n    </section>\n    ```\n\n    - **제목, 여기1**에만 적용된다\n\n    - 형제 선택자(sibling selector)\n\n      - h1 ~ p { color: blue; }\n\n      - 모든 형제 요소에 적용\n\n    ```\n    <style>\n    h1 + ul {\n      color: blue;\n      }\n      </style>\n\n    <section>\n      <h1>제목</h1>\n      <ul>여기1</ul>\n      <ul>여기2</ul>\n    </section>\n    ```\n\n    - **제목, 여기1, 여기2**에 모두 적용\n\n- 속성 선택자\n\n  - 태그 안의 속성들의 값에 따라 스타일을 지정\n\n  - | 기본형       | 스타일 적용시                   | 예시 - 선택자                      |\n    | ------------ | ------------------------------- | ---------------------------------- |\n    | [속성]       |                                 | [href]                             |\n    | [속성 = 값]  | '값'에 일치할 때                | [target=\"_blank\"]                  |\n    | [속성 ~= 값] | 여러 값 중에 단어로 포함된 경우 | [class ~= \"button\"]                |\n    | [속성        | = 값]                           | '값'이 포함되어 있을 때 (- 포함!!) | [class | = \"us\"] |\n    | [속성 ^= 값] | '값'으로 시작할 때              | [title ^=\"eng\"]                    |\n    | [속성 $= 값] | '값'으로 끝날 때                | [title &=\"xls\"]                    |\n    | [속성 *= 값] | '값'이 포함된 어떤 단어든 가능  | [href *= \"w3\"]                     |\n\n- 가상 클래스와 가상 요소\n\n  - 가상클래스는 콜론(:), 가상 요소는 콜론 두 개(::)를 사용\n\n  - 가상 클래스\n\n    - :link - 방문하지 않은 링크\n\n    - :visited - 방문한 링크\n\n    - :hover - 마우스 커서가 올라왔을 경우\n\n    - :active - 마우스로 누르고 있을 경우(활성화된 경우)\n\n    - :focus - 초점이 맞춰졌을 경우\n\n    - link, visited, hover, active 순서로 정의해야한다! 그렇지 않으면 정상 작동이 안됨\n\n    - :enabled, :disabled - 사용가능, 불가능\n\n    - :checked - 선택했을 경우\n\n## CSS3 애니메이션\n\n- transform - 회전, 이동할 때 사용\n\n  - 2차원, 3차원 둘다 가능\n\n    - translate, translateX, translateY, scale, scaleX, scaleY ...\n\n    - translate3d, transalteZ, scale3d, scaleZ ...\n\n    - ex) .tag:hover { transform:translate(tx, ty); }\n\n- transition - 변환 효과 줄 때\n\n  - transition은 완전히 다른 스타일로 변화를 줄 때 사용!\n\n- animation - 애니메이션 효과 만들기\n\n  - transition과 비슷하지만 keyframe이라는 중간지점이 있다는 것이 다른 점\n\n  - 즉, 시작하고 끝날 때 까지 원하는 지점에서 전부 애니메이션을 통해 변화를 줄 수 있음\n\n- @keyframes - 애니메이션 효과에서 중간 지점 만들기\n\n  - from to는 시작 위치와 끝 위치를 0%, 100%로 지정한다는 이야기\n\n  - 원하는 위치? 구간?에 대한 표시를 하고 사용하면 됨\n\n    - ex)\n      ```\n      50% {\n        background-color: blue;\n        border: 1px solid black;\n      }\n      ```\n\n  - animation-name - 사용하려는 keyframes를 명시 하는 곳\n\n  - ```\n    div {\n       width: 100px;\n        height: 100px;\n        background-color: blue;\n        animation-name: change-bg;\n        animation-duration: 3s;\n      }\n    @keyframes change-bg {\n        from {\n          background-color: blue;\n          border: 1px solid black;\n        }\n        to {\n          background-color: #a5d6ff;\n          border:1px solid blue;\n          border-radius: 50%;\n        }\n      }\n    ```\n\n## 반응형 웹 만들기\n\n- 뷰포트(viewport)\n\n  - 스마트폰 화면에서 실제 내용이 표시되는 영역\n\n  - 뷰포트를 지정하면 접속한 기기 화면에 맞추어 확대 혹은 축소해서 표시 가능\n\n- 가변 글꼴\n\n  - em vs rem\n\n    | em                                                               | rem                                         |\n    | ---------------------------------------------------------------- | ------------------------------------------- |\n    | 부모 요소에서 지정한 폰트의 대문자 M의 너비를 1em(16px)으로 지정 | root에서 지정한 글꼴 사이즈를 바탕으로 계산 |\n    | 부모 글꼴에 따라 글자크기의 영향을 크게 받는다                   | 중간에 기본값이 변하지 않는다               |\n\n- img 태그에 srcset 속성\n\n  - 화면 너비 값이나 픽셀에 따라 이미지를 지정가능\n\n  - `<img src=\"\" srcset=\"\">`\n\n  - picture 태그, source 태그(html5.1)\n\n    - media 쿼리를 통해 해상도별 이미지 지정 가능\n\n- 미디어 쿼리\n\n  - 접속하는 장치에 따라 특정 css를 사용\n\n  - 중단점 사용이 가능 - 중단점을 통해 기기별 혹은 사이즈별로 css를 사용 가능\n\n- 플렉서블 박스 레이아웃\n\n  - 요소를 플렉서블하게 사용하려면? - 플렉스 컨테이너로 묶어야 함 ex) display:flex;\n\n  - 브라우저마다 지원하는 방식이 다르기에 브라우저 접두사가 필요\n\n    ```\n    display:-webkit-box; /* iOS6이하, 사파리 3.1 */\n    display:-moz-box; /* 파폭 19이하 */\n    display:-ms-flexbox; /* IE 10 */\n    display:-webkit-flex; /* 웹킷 구버전 */\n    display:flex /* 표준 */\n    ```\n\n  - flex-direction : 방향 지정\n\n    - row or column\n\n  - flex-wrap - 한 줄 또는 여러 줄 배치\n\n    - no-wrap - 한 줄에 표시(기본 값)\n\n    - wrap - 여러 줄에 표시\n\n  - flex-flow - 플렉스 방향과 여러 줄의 배치를 한 번에 지정\n\n    - flex-flow:colum wrap; - 위에서 아래로, 여러 줄에 표시\n\n  - flex - 플렉스 항목의 크기 조절\n\n    - flex:1 1 0; - 늘이거나 줄이지 않음\n\n    - flex:2 2 0; - 2배 늘리거나 2배 줄임\n\n  - justify-content - 주축(가로)의 배치 방법 지정\n\n    - flext-end - 주축의 끝점을 기준으로 배치(우측 정렬?)\n\n    - space-around - 항목을 같은 간격으로 배치 (전체에서 중간중간에 동일 간격으로 margin?? 발생)\n\n  - align-items - 교차축(세로) 기준 배치방법\n\n    - center\n\n    - flex-end - 교차축의 끝점으로 배치(footer의 경우 최하단에 배치)\n\n  - align-content - 여러 줄일 때 배치 방법 지정\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2018-10-27-css-study.md",
+      "fields": {
+        "slug": "/blog/2018-10-27-css-study/"
+      }
+    },
+    "0e090f27-39e2-5d45-ac31-86e1d0b3fff1": {
+      "id": "0e090f27-39e2-5d45-ac31-86e1d0b3fff1",
+      "children": [],
+      "parent": "e0c28568-13ff-5cf7-8003-5a0d4468cdf0",
+      "internal": {
+        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0264a2a1ba3e1cc0ae2a3af8b484c2b0",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "second test",
+        "date": "2019-02-25",
+        "tags": [
+          "test1",
+          "test2",
+          "test3"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2019-02-25-test_test.md",
+      "fields": {
+        "slug": "/blog/2019-02-25-test_test/"
+      }
+    },
+    "5bea63d7-2863-580f-abab-926cdfc8efc5": {
+      "id": "5bea63d7-2863-580f-abab-926cdfc8efc5",
+      "children": [],
+      "parent": "fe7ae50f-16f5-5f9e-afd3-801d92ee90ce",
+      "internal": {
+        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9fa8b4aa981c9192fe299756ccd3dce2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "md file test",
+        "date": "2019-02-26",
+        "tags": [
+          "test1",
+          "test2",
+          "test3"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\n",
+      "fileAbsolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/blog/2019-02-26-post_test.md",
+      "fields": {
+        "slug": "/blog/2019-02-26-post_test/"
+      }
+    },
+    "c978da1a-d386-530d-a04d-a6c9a28ab469": {
+      "id": "c978da1a-d386-530d-a04d-a6c9a28ab469",
+      "children": [
+        "bd58c46c-0554-5db9-b38b-817a3bed643a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "97e44f4d494143e8e918910d57be28e4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/profile_img.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets/profile_img.png",
+      "relativePath": "assets/profile_img.png",
+      "extension": "png",
+      "size": 555454,
+      "prettySize": "555 kB",
+      "modifiedTime": "2019-02-20T15:11:06.656Z",
+      "accessTime": "2019-02-28T17:17:42.785Z",
+      "changeTime": "2019-02-28T17:11:39.349Z",
+      "birthTime": "2019-02-20T15:08:37.799Z",
+      "root": "/",
+      "dir": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/content/assets",
+      "base": "profile_img.png",
+      "ext": ".png",
+      "name": "profile_img",
+      "relativeDirectory": "assets",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895198320,
+      "blocks": 1152,
+      "atimeMs": 1551374262784.6362,
+      "mtimeMs": 1550675466656.2305,
+      "ctimeMs": 1551373899349.1829,
+      "birthtimeMs": 1550675317798.6323,
+      "atime": "2019-02-28T17:17:42.785Z",
+      "mtime": "2019-02-20T15:11:06.656Z",
+      "ctime": "2019-02-28T17:11:39.349Z",
+      "birthtime": "2019-02-20T15:08:37.799Z"
+    },
+    "bd58c46c-0554-5db9-b38b-817a3bed643a": {
+      "id": "bd58c46c-0554-5db9-b38b-817a3bed643a",
+      "children": [],
+      "parent": "c978da1a-d386-530d-a04d-a6c9a28ab469",
+      "internal": {
+        "contentDigest": "97e44f4d494143e8e918910d57be28e4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "12c2d86c1300db2236680e70145ca5ec",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "pluginCreatorId": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "94464c0e8d9de60843ce0be6fc1ee3e4",
+        "description": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2019-02-26-post_test/": {
+      "jsonName": "blog-2019-02-26-post-test-6ad",
+      "internalComponentName": "ComponentBlog20190226PostTest",
+      "path": "/blog/2019-02-26-post_test/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blog/2019-02-26-post_test/",
+        "previous": {
+          "fields": {
+            "slug": "/blog/2019-02-25-test_test/"
+          },
+          "frontmatter": {
+            "title": "second test",
+            "tags": [
+              "test1",
+              "test2",
+              "test3"
+            ]
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/about/"
+          },
+          "frontmatter": {
+            "title": "",
+            "tags": null
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "id": "SitePage /blog/2019-02-26-post_test/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "98e93edba31b2e9d09ab19fe62048ee3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2019-02-25-test_test/": {
+      "jsonName": "blog-2019-02-25-test-test-dbb",
+      "internalComponentName": "ComponentBlog20190225TestTest",
+      "path": "/blog/2019-02-25-test_test/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blog/2019-02-25-test_test/",
+        "previous": {
+          "fields": {
+            "slug": "/blog/2018-12-27-2018memoir/"
+          },
+          "frontmatter": {
+            "title": "2018 회고록",
+            "tags": [
+              "2018",
+              "memorior"
+            ]
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/blog/2019-02-26-post_test/"
+          },
+          "frontmatter": {
+            "title": "md file test",
+            "tags": [
+              "test1",
+              "test2",
+              "test3"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "id": "SitePage /blog/2019-02-25-test_test/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aa10d3b2e7453764d6afd2b30831b529",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2018-12-27-2018memoir/": {
+      "jsonName": "blog-2018-12-27-2018-memoir-264",
+      "internalComponentName": "ComponentBlog201812272018Memoir",
+      "path": "/blog/2018-12-27-2018memoir/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blog/2018-12-27-2018memoir/",
+        "previous": {
+          "fields": {
+            "slug": "/blog/2018-10-27-html-study/"
+          },
+          "frontmatter": {
+            "title": "HTML 기본 개념부터 다시",
+            "tags": [
+              "html",
+              "markup"
+            ]
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/blog/2019-02-25-test_test/"
+          },
+          "frontmatter": {
+            "title": "second test",
+            "tags": [
+              "test1",
+              "test2",
+              "test3"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "id": "SitePage /blog/2018-12-27-2018memoir/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6ed58c460db764361fbaed7ac7cd6f7f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2018-10-27-html-study/": {
+      "jsonName": "blog-2018-10-27-html-study-c51",
+      "internalComponentName": "ComponentBlog20181027HtmlStudy",
+      "path": "/blog/2018-10-27-html-study/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blog/2018-10-27-html-study/",
+        "previous": {
+          "fields": {
+            "slug": "/blog/2018-10-27-css-study/"
+          },
+          "frontmatter": {
+            "title": "CSS 개념 공부",
+            "tags": [
+              "css"
+            ]
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/blog/2018-12-27-2018memoir/"
+          },
+          "frontmatter": {
+            "title": "2018 회고록",
+            "tags": [
+              "2018",
+              "memorior"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "id": "SitePage /blog/2018-10-27-html-study/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "92358779f5baac6ebca44fcb2158826e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2018-10-27-css-study/": {
+      "jsonName": "blog-2018-10-27-css-study-4be",
+      "internalComponentName": "ComponentBlog20181027CssStudy",
+      "path": "/blog/2018-10-27-css-study/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blog/2018-10-27-css-study/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/blog/2018-10-27-html-study/"
+          },
+          "frontmatter": {
+            "title": "HTML 기본 개념부터 다시",
+            "tags": [
+              "html",
+              "markup"
+            ]
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js",
+      "id": "SitePage /blog/2018-10-27-css-study/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8600fe6ce8501732ad7f1d5d219c107a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "pluginCreatorId": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b9a8562b41e176a9f4db79f8c76351e",
+        "description": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "pluginCreatorId": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9eb88fb3a8f8ed496c6c91ac6810c836",
+        "description": "c279db64-9c1f-5d43-a912-60b75a4fd83e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d1c4da45cf456203def82158f6ea258b",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "bcef61c2548400cc49b38ac3bbea69a1"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-bio-index-js",
+        "sq--src-components-seo-index-js",
+        "/404/",
+        "/404.html",
+        "/",
+        "/blog/2019-02-26-post_test/",
+        "/blog/2019-02-25-test_test/",
+        "/blog/2018-12-27-2018memoir/",
+        "/blog/2018-10-27-html-study/",
+        "/blog/2018-10-27-css-study/"
+      ],
+      "c978da1a-d386-530d-a04d-a6c9a28ab469": [
+        "sq--src-components-bio-index-js"
+      ],
+      "bd58c46c-0554-5db9-b38b-817a3bed643a": [
+        "sq--src-components-bio-index-js"
+      ],
+      "5bea63d7-2863-580f-abab-926cdfc8efc5": [
+        "/blog/2019-02-26-post_test/"
+      ],
+      "0e090f27-39e2-5d45-ac31-86e1d0b3fff1": [
+        "/blog/2019-02-25-test_test/"
+      ],
+      "1dfb9843-2c76-5620-af78-9d8b4814619e": [
+        "/blog/2018-12-27-2018memoir/"
+      ],
+      "67d3cf9e-0ae4-5255-bc2d-1dfd28077ea2": [
+        "/blog/2018-10-27-html-study/"
+      ],
+      "399e2c5e-d52e-53c8-b5f4-46d2a7e44462": [
+        "/blog/2018-10-27-css-study/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/about/",
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-index-js": 1025518380,
+    "404-22d": "598/path---404-22-d-bce-CDBy490EmAx6M5b07dem3BHUek",
+    "about-f34": "604/path---about-f-34-4c2-WqGb55o6ArL5VhoFkHqtZ1DYI",
+    "404-html-516": "881/path---404-html-516-62a-CDBy490EmAx6M5b07dem3BHUek",
+    "index": "736/path---index-6a9-PzmRGukgdwrVZ4x0DZOF6ZC7kU",
+    "sq--src-components-bio-index-js": 547455787,
+    "blog-2019-02-26-post-test-6ad": "224/path---blog-2019-02-26-post-test-6-ad-e97-VZIszCnQTZsuS1wOFqJR6azfgE",
+    "blog-2019-02-25-test-test-dbb": "952/path---blog-2019-02-25-test-test-dbb-724-nLXso8eaBjAeHjtXKSzIng2gw",
+    "blog-2018-12-27-2018-memoir-264": "924/path---blog-2018-12-27-2018-memoir-264-8c3-Qvti4giIELRmZiD3rRo0NmSvJt4",
+    "blog-2018-10-27-html-study-c51": "171/path---blog-2018-10-27-html-study-c-51-93c-XfMsQCMQdajaceNwPigMycWox0",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-2018-10-27-css-study-4be": "32/path---blog-2018-10-27-css-study-4-be-956-tkHbQiLNcWyDIlQsshlaM828Z0Y"
+  },
+  "components": {
+    "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
+    "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/templates/blog-post.js"
+    },
+    "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js": {
+      "query": "query usersJonggyunparkDocumentsGithubioJonggyunGithubIoSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/404.js"
+    },
+    "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/about.js": {
+      "query": "query usersJonggyunparkDocumentsGithubioJonggyunGithubIoSrcPagesAboutJs2220019903 {\n  allMarkdownRemark(filter: {frontmatter: {title: {eq: \"\"}}}) {\n    edges {\n      node {\n        id\n        excerpt(pruneLength: 160)\n        html\n        frontmatter {\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/about.js"
+    },
+    "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/index.js": {
+      "query": "query usersJonggyunparkDocumentsGithubioJonggyunGithubIoSrcPagesIndexJs216964625 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(filter: {frontmatter: {title: {ne: \"\"}}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-bio-index-js": {
+      "name": "BioQuery",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/components/Bio/index.js",
+      "id": "sq--src-components-bio-index-js",
+      "jsonName": "sq--src-components-bio-index-js",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/profile_img.png/\"}) {\n    childImageSharp {\n      fixed(width: 50, height: 50) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      social {\n        github\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 547455787
+    },
+    "sq--src-components-seo-index-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/jonggyunpark/Documents/githubio/jonggyun.github.io/src/components/Seo/index.js",
+      "id": "sq--src-components-seo-index-js",
+      "jsonName": "sq--src-components-seo-index-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
